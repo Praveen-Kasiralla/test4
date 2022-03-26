@@ -2108,3 +2108,11 @@
 26-03-2022 13:29:43 INFO  HomePage:19 - Interiors page has opened
 26-03-2022 13:29:43 INFO  HomePage:19 - Clicking on Rooms to see photos
 26-03-2022 13:29:44 INFO  HomePage:19 - Room photos are displayed
+26-03-2022 13:36:40 INFO  AboutUs:19 - Open NoBroker
+26-03-2022 13:36:42 INFO  AboutUs:19 - NoBroker as opened
+26-03-2022 13:36:42 INFO  Footer:19 - Clicking on About Us
+26-03-2022 13:36:43 INFO  Footer:19 - About Us page has opened
+26-03-2022 13:36:43 INFO  HomePage:19 - Clicking on Contact Us
+26-03-2022 13:36:43 INFO  HomePage:19 - Contact Us section is open
+26-03-2022 13:36:43 INFO  HomePage:19 - Clicking on twitter icon in contact us
+26-03-2022 13:36:46 INFO  HomePage:19 - Twitter has opened
