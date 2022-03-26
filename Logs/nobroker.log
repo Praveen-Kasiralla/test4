@@ -1597,3 +1597,251 @@
 26-03-2022 09:56:57 INFO  HomePage:19 - Interiors page has opened
 26-03-2022 09:56:57 INFO  HomePage:19 - Clicking on Rooms to see photos
 26-03-2022 09:56:59 INFO  HomePage:19 - Room photos are displayed
+26-03-2022 10:06:16 INFO  BuyPropertyArticle:19 - Open NoBroker
+26-03-2022 10:06:18 INFO  BuyPropertyArticle:19 - NoBroker as opened
+26-03-2022 10:06:19 INFO  HomePage:19 - Clicking on buy option
+26-03-2022 10:06:19 INFO  HomePage:19 - buy is selected
+26-03-2022 10:06:19 INFO  HomePage:19 - Clicking on city dropdown and selecting Mumbai
+26-03-2022 10:06:19 INFO  HomePage:19 - Mumbai selected
+26-03-2022 10:06:19 INFO  HomePage:19 - Clicking on dropdown and selecting 1 BHK
+26-03-2022 10:06:19 INFO  HomePage:19 - 1 BHK is selected
+26-03-2022 10:06:19 INFO  HomePage:19 - Clicking on dropdown and selecting Ready
+26-03-2022 10:06:19 INFO  HomePage:19 - Ready is selected
+26-03-2022 10:06:19 INFO  HomePage:19 - Typing Colaba, Mumbai, Maharashtra, India in search bar and clicking on search button
+26-03-2022 10:06:22 INFO  HomePage:19 - Property list page is  opened
+26-03-2022 10:06:22 INFO  HomePage:19 - Clicking on a property artical
+26-03-2022 10:06:23 INFO  HomePage:19 - Property article opened in another page
+26-03-2022 10:06:23 INFO  HomePage:19 - Clicking on photos
+26-03-2022 10:06:23 INFO  HomePage:19 - Photo Lighbox of the property has opened
+26-03-2022 10:06:25 INFO  BuyPropertyMap:19 - Open NoBroker
+26-03-2022 10:06:27 INFO  BuyPropertyMap:19 - NoBroker as opened
+26-03-2022 10:06:27 INFO  HomePage:19 - Clicking on buy option
+26-03-2022 10:06:27 INFO  HomePage:19 - buy is selected
+26-03-2022 10:06:27 INFO  HomePage:19 - Clicking on city dropdown and selecting Mumbai
+26-03-2022 10:06:28 INFO  HomePage:19 - Mumbai selected
+26-03-2022 10:06:28 INFO  HomePage:19 - Clicking on dropdown and selecting 1 BHK
+26-03-2022 10:06:28 INFO  HomePage:19 - 1 BHK is selected
+26-03-2022 10:06:28 INFO  HomePage:19 - Clicking on dropdown and selecting Ready
+26-03-2022 10:06:28 INFO  HomePage:19 - Ready is selected
+26-03-2022 10:06:28 INFO  HomePage:19 - Typing Colaba, Mumbai, Maharashtra, India in search bar and clicking on search button
+26-03-2022 10:06:30 INFO  HomePage:19 - Property list page is  opened
+26-03-2022 10:06:30 INFO  HomePage:19 - Clicking on map display
+26-03-2022 10:06:31 INFO  HomePage:19 - map is selected
+26-03-2022 10:06:31 INFO  HomePage:19 - Clicking on fullscreen button on the map
+26-03-2022 10:06:33 INFO  HomePage:19 - Map has opened in fullscreen
+26-03-2022 10:06:34 INFO  RentMap:19 - Open NoBroker
+26-03-2022 10:06:36 INFO  RentMap:19 - NoBroker as opened
+26-03-2022 10:06:36 INFO  HomePage:19 - Clicking on rent option
+26-03-2022 10:06:36 INFO  HomePage:19 - rent is selected
+26-03-2022 10:06:36 INFO  HomePage:19 - Clicking on city dropdown and selecting Bangalore
+26-03-2022 10:06:37 INFO  HomePage:19 - Bangalore selected
+26-03-2022 10:06:37 INFO  HomePage:19 - Clicking on full house option
+26-03-2022 10:06:37 INFO  HomePage:19 - full house is selected
+26-03-2022 10:06:37 INFO  HomePage:19 - Clicking on dropdown and selecting 1 RK
+26-03-2022 10:06:37 INFO  HomePage:19 - 1 RK is selected
+26-03-2022 10:06:37 INFO  HomePage:19 - Clicking on dropdown and selecting Immediate
+26-03-2022 10:06:37 INFO  HomePage:19 - Immediate is selected
+26-03-2022 10:06:37 INFO  HomePage:19 - Typing Basavanagudi, Bengaluru, Karnataka, India in search bar and clicking on search button
+26-03-2022 10:06:39 INFO  HomePage:19 - Property list page is  opened
+26-03-2022 10:06:39 INFO  HomePage:19 - Clicking on map display
+26-03-2022 10:06:40 INFO  HomePage:19 - map is selected
+26-03-2022 10:06:40 INFO  HomePage:19 - Clicking on fullscreen button on the map
+26-03-2022 10:06:43 INFO  HomePage:19 - Map has opened in fullscreen
+26-03-2022 10:06:44 INFO  RentArticle:19 - Open NoBroker
+26-03-2022 10:06:46 INFO  RentArticle:19 - NoBroker as opened
+26-03-2022 10:06:46 INFO  HomePage:19 - Clicking on rent option
+26-03-2022 10:06:47 INFO  HomePage:19 - rent is selected
+26-03-2022 10:06:47 INFO  HomePage:19 - Clicking on city dropdown and selecting Bangalore
+26-03-2022 10:06:47 INFO  HomePage:19 - Bangalore selected
+26-03-2022 10:06:47 INFO  HomePage:19 - Clicking on full house option
+26-03-2022 10:06:47 INFO  HomePage:19 - full house is selected
+26-03-2022 10:06:47 INFO  HomePage:19 - Clicking on dropdown and selecting 1 RK
+26-03-2022 10:06:47 INFO  HomePage:19 - 1 RK is selected
+26-03-2022 10:06:47 INFO  HomePage:19 - Clicking on dropdown and selecting Immediate
+26-03-2022 10:06:48 INFO  HomePage:19 - Immediate is selected
+26-03-2022 10:06:48 INFO  HomePage:19 - Typing Basavanagudi, Bengaluru, Karnataka, India in search bar and clicking on search button
+26-03-2022 10:06:58 INFO  HomePage:19 - Clicking on a property artical
+26-03-2022 10:07:08 INFO  HomePage:19 - Clicking on photos
+26-03-2022 10:07:20 INFO  CommercialPropertyArticle:19 - Open NoBroker
+26-03-2022 10:07:36 INFO  HomePage:19 - Clicking on a property artical
+26-03-2022 10:07:36 INFO  HomePage:19 - Clicking on photos
+26-03-2022 10:07:37 INFO  CommercialPropertyMap:19 - Open NoBroker
+26-03-2022 10:07:39 INFO  CommercialPropertyMap:19 - NoBroker as opened
+26-03-2022 10:07:39 INFO  HomePage:19 - Clicking on commercial option
+26-03-2022 10:07:39 INFO  HomePage:19 - commercial is selected
+26-03-2022 10:07:39 INFO  HomePage:19 - Clicking on city dropdown and selecting Pune
+26-03-2022 10:07:40 INFO  HomePage:19 - Pune selected
+26-03-2022 10:07:40 INFO  HomePage:19 - Clicking on rent option
+26-03-2022 10:07:40 INFO  HomePage:19 - rent is selected
+26-03-2022 10:07:40 INFO  HomePage:19 - Clicking on dropdown and selecting Office Space
+26-03-2022 10:07:40 INFO  HomePage:19 - Office Space is selected
+26-03-2022 10:07:40 INFO  HomePage:19 - Typing Kothrud, Pune, Maharashtra, India in search bar and clicking on search button
+26-03-2022 10:07:41 INFO  HomePage:19 - Property list page is  opened
+26-03-2022 10:07:41 INFO  HomePage:19 - Clicking on map display
+26-03-2022 10:07:42 INFO  HomePage:19 - map is selected
+26-03-2022 10:07:42 INFO  HomePage:19 - Clicking on fullscreen button on the map
+26-03-2022 10:07:44 INFO  HomePage:19 - Map has opened in fullscreen
+26-03-2022 10:07:46 INFO  EmiCalculator:19 - Open NoBroker
+26-03-2022 10:07:48 INFO  EmiCalculator:19 - NoBroker as opened
+26-03-2022 10:07:48 INFO  Footer:19 - Clicking on emi calculator
+26-03-2022 10:07:51 INFO  Footer:19 - Emi calculator page has opened
+26-03-2022 10:07:51 INFO  HomePage:19 - Entering 2054500 loan amount
+26-03-2022 10:07:51 INFO  HomePage:19 - Entering 10 rate of interest
+26-03-2022 10:07:51 INFO  HomePage:19 - Entering 30 loan tenure
+26-03-2022 10:07:51 INFO  HomePage:19 - Emi is calculated
+26-03-2022 10:07:52 INFO  AboutUs:19 - Open NoBroker
+26-03-2022 10:07:54 INFO  AboutUs:19 - NoBroker as opened
+26-03-2022 10:07:54 INFO  Footer:19 - Clicking on About Us
+26-03-2022 10:07:55 INFO  Footer:19 - About Us page has opened
+26-03-2022 10:07:55 INFO  HomePage:19 - Clicking on Contact Us
+26-03-2022 10:07:55 INFO  HomePage:19 - Contact Us section is open
+26-03-2022 10:07:55 INFO  HomePage:19 - Clicking on twitter icon in contact us
+26-03-2022 10:08:00 INFO  HomePage:19 - Twitter has opened
+26-03-2022 10:08:03 INFO  AboutUs:19 - Open NoBroker
+26-03-2022 10:08:04 INFO  AboutUs:19 - NoBroker as opened
+26-03-2022 10:08:04 INFO  HomePage:19 - Clicking on Hamburger menu
+26-03-2022 10:08:04 INFO  HomePage:19 - Menu is open
+26-03-2022 10:08:04 INFO  HomePage:19 - Clicking on NBcash and wallet summary
+26-03-2022 10:08:05 INFO  HomePage:19 - Wallet Summary page has opened
+26-03-2022 10:08:05 INFO  HomePage:19 - Cliking on Join club
+26-03-2022 10:08:05 INFO  HomePage:19 - Wallet club page has opened
+26-03-2022 10:08:06 INFO  AboutUs:19 - Open NoBroker
+26-03-2022 10:08:08 INFO  AboutUs:19 - NoBroker as opened
+26-03-2022 10:08:08 INFO  HomePage:19 - Clicking on Hamburger menu
+26-03-2022 10:08:08 INFO  HomePage:19 - Menu is open
+26-03-2022 10:08:08 INFO  HomePage:19 - Clicking on Home Services and Interiors
+26-03-2022 10:08:14 INFO  HomePage:19 - Interiors page has opened
+26-03-2022 10:08:14 INFO  HomePage:19 - Clicking on Rooms to see photos
+26-03-2022 10:08:16 INFO  HomePage:19 - Room photos are displayed
+26-03-2022 10:08:51 INFO  BuyPropertyArticle:19 - Open NoBroker
+26-03-2022 10:08:54 INFO  BuyPropertyArticle:19 - NoBroker as opened
+26-03-2022 10:08:54 INFO  HomePage:19 - Clicking on buy option
+26-03-2022 10:08:54 INFO  HomePage:19 - buy is selected
+26-03-2022 10:08:54 INFO  HomePage:19 - Clicking on city dropdown and selecting Mumbai
+26-03-2022 10:08:55 INFO  HomePage:19 - Mumbai selected
+26-03-2022 10:08:55 INFO  HomePage:19 - Clicking on dropdown and selecting 1 BHK
+26-03-2022 10:08:55 INFO  HomePage:19 - 1 BHK is selected
+26-03-2022 10:08:55 INFO  HomePage:19 - Clicking on dropdown and selecting Ready
+26-03-2022 10:08:55 INFO  HomePage:19 - Ready is selected
+26-03-2022 10:08:55 INFO  HomePage:19 - Typing Colaba, Mumbai, Maharashtra, India in search bar and clicking on search button
+26-03-2022 10:08:57 INFO  HomePage:19 - Property list page is  opened
+26-03-2022 10:08:57 INFO  HomePage:19 - Clicking on a property artical
+26-03-2022 10:08:58 INFO  HomePage:19 - Property article opened in another page
+26-03-2022 10:08:58 INFO  HomePage:19 - Clicking on photos
+26-03-2022 10:08:59 INFO  HomePage:19 - Photo Lighbox of the property has opened
+26-03-2022 10:09:01 INFO  BuyPropertyMap:19 - Open NoBroker
+26-03-2022 10:09:02 INFO  BuyPropertyMap:19 - NoBroker as opened
+26-03-2022 10:09:03 INFO  HomePage:19 - Clicking on buy option
+26-03-2022 10:09:03 INFO  HomePage:19 - buy is selected
+26-03-2022 10:09:03 INFO  HomePage:19 - Clicking on city dropdown and selecting Mumbai
+26-03-2022 10:09:03 INFO  HomePage:19 - Mumbai selected
+26-03-2022 10:09:03 INFO  HomePage:19 - Clicking on dropdown and selecting 1 BHK
+26-03-2022 10:09:03 INFO  HomePage:19 - 1 BHK is selected
+26-03-2022 10:09:03 INFO  HomePage:19 - Clicking on dropdown and selecting Ready
+26-03-2022 10:09:03 INFO  HomePage:19 - Ready is selected
+26-03-2022 10:09:03 INFO  HomePage:19 - Typing Colaba, Mumbai, Maharashtra, India in search bar and clicking on search button
+26-03-2022 10:09:05 INFO  HomePage:19 - Property list page is  opened
+26-03-2022 10:09:05 INFO  HomePage:19 - Clicking on map display
+26-03-2022 10:09:06 INFO  HomePage:19 - map is selected
+26-03-2022 10:09:06 INFO  HomePage:19 - Clicking on fullscreen button on the map
+26-03-2022 10:09:08 INFO  HomePage:19 - Map has opened in fullscreen
+26-03-2022 10:09:09 INFO  RentMap:19 - Open NoBroker
+26-03-2022 10:09:11 INFO  RentMap:19 - NoBroker as opened
+26-03-2022 10:09:11 INFO  HomePage:19 - Clicking on rent option
+26-03-2022 10:09:12 INFO  HomePage:19 - rent is selected
+26-03-2022 10:09:12 INFO  HomePage:19 - Clicking on city dropdown and selecting Bangalore
+26-03-2022 10:09:12 INFO  HomePage:19 - Bangalore selected
+26-03-2022 10:09:12 INFO  HomePage:19 - Clicking on full house option
+26-03-2022 10:09:12 INFO  HomePage:19 - full house is selected
+26-03-2022 10:09:12 INFO  HomePage:19 - Clicking on dropdown and selecting 1 RK
+26-03-2022 10:09:12 INFO  HomePage:19 - 1 RK is selected
+26-03-2022 10:09:12 INFO  HomePage:19 - Clicking on dropdown and selecting Immediate
+26-03-2022 10:09:13 INFO  HomePage:19 - Immediate is selected
+26-03-2022 10:09:13 INFO  HomePage:19 - Typing Basavanagudi, Bengaluru, Karnataka, India in search bar and clicking on search button
+26-03-2022 10:09:15 INFO  HomePage:19 - Property list page is  opened
+26-03-2022 10:09:15 INFO  HomePage:19 - Clicking on map display
+26-03-2022 10:09:16 INFO  HomePage:19 - map is selected
+26-03-2022 10:09:16 INFO  HomePage:19 - Clicking on fullscreen button on the map
+26-03-2022 10:09:18 INFO  HomePage:19 - Map has opened in fullscreen
+26-03-2022 10:09:20 INFO  RentArticle:19 - Open NoBroker
+26-03-2022 10:09:22 INFO  RentArticle:19 - NoBroker as opened
+26-03-2022 10:09:22 INFO  HomePage:19 - Clicking on rent option
+26-03-2022 10:09:22 INFO  HomePage:19 - rent is selected
+26-03-2022 10:09:22 INFO  HomePage:19 - Clicking on city dropdown and selecting Bangalore
+26-03-2022 10:09:23 INFO  HomePage:19 - Bangalore selected
+26-03-2022 10:09:23 INFO  HomePage:19 - Clicking on full house option
+26-03-2022 10:09:23 INFO  HomePage:19 - full house is selected
+26-03-2022 10:09:23 INFO  HomePage:19 - Clicking on dropdown and selecting 1 RK
+26-03-2022 10:09:23 INFO  HomePage:19 - 1 RK is selected
+26-03-2022 10:09:23 INFO  HomePage:19 - Clicking on dropdown and selecting Immediate
+26-03-2022 10:09:23 INFO  HomePage:19 - Immediate is selected
+26-03-2022 10:09:23 INFO  HomePage:19 - Typing Basavanagudi, Bengaluru, Karnataka, India in search bar and clicking on search button
+26-03-2022 10:09:25 INFO  HomePage:19 - Property list page is  opened
+26-03-2022 10:09:25 INFO  HomePage:19 - Clicking on a property artical
+26-03-2022 10:09:26 INFO  HomePage:19 - Property article opened in another page
+26-03-2022 10:09:26 INFO  HomePage:19 - Clicking on photos
+26-03-2022 10:09:27 INFO  HomePage:19 - Photo Lighbox of the property has opened
+26-03-2022 10:09:29 INFO  CommercialPropertyArticle:19 - Open NoBroker
+26-03-2022 10:09:30 INFO  CommercialPropertyArticle:19 - NoBroker as opened
+26-03-2022 10:09:30 INFO  HomePage:19 - Clicking on commercial option
+26-03-2022 10:09:31 INFO  HomePage:19 - commercial is selected
+26-03-2022 10:09:31 INFO  HomePage:19 - Clicking on city dropdown and selecting Pune
+26-03-2022 10:09:31 INFO  HomePage:19 - Pune selected
+26-03-2022 10:09:31 INFO  HomePage:19 - Clicking on rent option
+26-03-2022 10:09:31 INFO  HomePage:19 - rent is selected
+26-03-2022 10:09:31 INFO  HomePage:19 - Clicking on dropdown and selecting Office Space
+26-03-2022 10:09:31 INFO  HomePage:19 - Office Space is selected
+26-03-2022 10:09:31 INFO  HomePage:19 - Typing Kothrud, Pune, Maharashtra, India in search bar and clicking on search button
+26-03-2022 10:09:33 INFO  HomePage:19 - Property list page is  opened
+26-03-2022 10:09:33 INFO  HomePage:19 - Clicking on a property artical
+26-03-2022 10:09:34 INFO  HomePage:19 - Property article opened in another page
+26-03-2022 10:09:34 INFO  HomePage:19 - Clicking on photos
+26-03-2022 10:09:35 INFO  HomePage:19 - Photo Lighbox of the property has opened
+26-03-2022 10:09:37 INFO  CommercialPropertyMap:19 - Open NoBroker
+26-03-2022 10:09:39 INFO  CommercialPropertyMap:19 - NoBroker as opened
+26-03-2022 10:09:39 INFO  HomePage:19 - Clicking on commercial option
+26-03-2022 10:09:39 INFO  HomePage:19 - commercial is selected
+26-03-2022 10:09:39 INFO  HomePage:19 - Clicking on city dropdown and selecting Pune
+26-03-2022 10:09:39 INFO  HomePage:19 - Pune selected
+26-03-2022 10:09:39 INFO  HomePage:19 - Clicking on rent option
+26-03-2022 10:09:40 INFO  HomePage:19 - rent is selected
+26-03-2022 10:09:40 INFO  HomePage:19 - Clicking on dropdown and selecting Office Space
+26-03-2022 10:09:40 INFO  HomePage:19 - Office Space is selected
+26-03-2022 10:09:40 INFO  HomePage:19 - Typing Kothrud, Pune, Maharashtra, India in search bar and clicking on search button
+26-03-2022 10:09:41 INFO  HomePage:19 - Property list page is  opened
+26-03-2022 10:09:41 INFO  HomePage:19 - Clicking on map display
+26-03-2022 10:09:43 INFO  HomePage:19 - map is selected
+26-03-2022 10:09:43 INFO  HomePage:19 - Clicking on fullscreen button on the map
+26-03-2022 10:09:45 INFO  HomePage:19 - Map has opened in fullscreen
+26-03-2022 10:09:46 INFO  EmiCalculator:19 - Open NoBroker
+26-03-2022 10:09:48 INFO  EmiCalculator:19 - NoBroker as opened
+26-03-2022 10:09:48 INFO  Footer:19 - Clicking on emi calculator
+26-03-2022 10:09:50 INFO  Footer:19 - Emi calculator page has opened
+26-03-2022 10:09:50 INFO  HomePage:19 - Entering 2054500 loan amount
+26-03-2022 10:09:50 INFO  HomePage:19 - Entering 10 rate of interest
+26-03-2022 10:09:50 INFO  HomePage:19 - Entering 30 loan tenure
+26-03-2022 10:09:51 INFO  HomePage:19 - Emi is calculated
+26-03-2022 10:09:52 INFO  AboutUs:19 - Open NoBroker
+26-03-2022 10:09:54 INFO  AboutUs:19 - NoBroker as opened
+26-03-2022 10:09:54 INFO  Footer:19 - Clicking on About Us
+26-03-2022 10:09:55 INFO  Footer:19 - About Us page has opened
+26-03-2022 10:09:55 INFO  HomePage:19 - Clicking on Contact Us
+26-03-2022 10:09:55 INFO  HomePage:19 - Contact Us section is open
+26-03-2022 10:09:55 INFO  HomePage:19 - Clicking on twitter icon in contact us
+26-03-2022 10:09:57 INFO  HomePage:19 - Twitter has opened
+26-03-2022 10:09:59 INFO  AboutUs:19 - Open NoBroker
+26-03-2022 10:10:00 INFO  AboutUs:19 - NoBroker as opened
+26-03-2022 10:10:00 INFO  HomePage:19 - Clicking on Hamburger menu
+26-03-2022 10:10:00 INFO  HomePage:19 - Menu is open
+26-03-2022 10:10:00 INFO  HomePage:19 - Clicking on NBcash and wallet summary
+26-03-2022 10:10:01 INFO  HomePage:19 - Wallet Summary page has opened
+26-03-2022 10:10:01 INFO  HomePage:19 - Cliking on Join club
+26-03-2022 10:10:01 INFO  HomePage:19 - Wallet club page has opened
+26-03-2022 10:10:03 INFO  AboutUs:19 - Open NoBroker
+26-03-2022 10:10:04 INFO  AboutUs:19 - NoBroker as opened
+26-03-2022 10:10:04 INFO  HomePage:19 - Clicking on Hamburger menu
+26-03-2022 10:10:04 INFO  HomePage:19 - Menu is open
+26-03-2022 10:10:04 INFO  HomePage:19 - Clicking on Home Services and Interiors
+26-03-2022 10:10:10 INFO  HomePage:19 - Interiors page has opened
+26-03-2022 10:10:10 INFO  HomePage:19 - Clicking on Rooms to see photos
+26-03-2022 10:10:12 INFO  HomePage:19 - Room photos are displayed
