@@ -2,19 +2,19 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <parameter name="browser" value="chrome"/>
-  <test thread-count="5" name="Test4(failed)" verbose="0">
+  <test thread-count="5" name="Test1(failed)" verbose="0">
     <classes>
-      <class name="runner.RentArticle">
+      <class name="runner.BuyPropertyArticle">
         <methods>
+          <include name="seePhotos"/>
           <include name="driverExit"/>
           <include name="driverSetUp"/>
-          <include name="seePhotos"/>
           <include name="required"/>
           <include name="clickArticle"/>
         </methods>
-      </class> <!-- runner.RentArticle -->
+      </class> <!-- runner.BuyPropertyArticle -->
     </classes>
-  </test> <!-- Test4(failed) -->
+  </test> <!-- Test1(failed) -->
   <test thread-count="5" name="Test9(failed)" verbose="0">
     <classes>
       <class name="runner.Wallet">
