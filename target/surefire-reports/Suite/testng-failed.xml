@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Test4(failed)" verbose="0">
+    <classes>
+      <class name="runner.RentArticle">
+        <methods>
+          <include name="driverExit"/>
+          <include name="driverSetUp"/>
+          <include name="seePhotos"/>
+          <include name="required"/>
+          <include name="clickArticle"/>
+        </methods>
+      </class> <!-- runner.RentArticle -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+  <test thread-count="5" name="Test9(failed)" verbose="0">
+    <classes>
+      <class name="runner.Wallet">
+        <methods>
+          <include name="driverExit"/>
+          <include name="joinClub"/>
+          <include name="driverSetUp"/>
+          <include name="required"/>
+        </methods>
+      </class> <!-- runner.Wallet -->
+    </classes>
+  </test> <!-- Test9(failed) -->
+</suite> <!-- Failed suite [Suite] -->

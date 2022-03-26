@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="107.99" tests="70" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="webdriver.chrome.driver" value="./Drivers/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\prave\eclipse-workspace\Comprehensive_Hybrid_Framework\target\test-classes;C:\Users\prave\eclipse-workspace\Comprehensive_Hybrid_Framework\target\classes;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\prave\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\prave\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\prave\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\prave\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\prave\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\prave\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\prave\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\prave\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\prave\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\prave\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\prave\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\prave\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\prave\.m2\repository\org\apache\poi\poi-ooxml\5.2.0\poi-ooxml-5.2.0.jar;C:\Users\prave\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.0\poi-ooxml-lite-5.2.0.jar;C:\Users\prave\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\prave\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\prave\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\prave\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\prave\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\prave\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\prave\.m2\repository\org\apache\poi\poi\5.2.0\poi-5.2.0.jar;C:\Users\prave\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\prave\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\prave\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\prave\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\prave\.m2\repository\com\aventstack\extentreports\4.1.7\extentreports-4.1.7.jar;C:\Users\prave\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\prave\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\prave\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\prave\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\prave\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\prave\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\prave\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\prave\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\prave\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\prave\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\prave\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\prave\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.10.1\maven-compiler-plugin-3.10.1.jar;C:\Users\prave\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\prave\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\prave\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\prave\.m2\repository\org\codehaus\plexus\plexus-java\1.1.1\plexus-java-1.1.1.jar;C:\Users\prave\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\prave\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar;C:\Users\prave\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.11.1\plexus-compiler-api-2.11.1.jar;C:\Users\prave\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.1\plexus-utils-3.4.1.jar;C:\Users\prave\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.11.1\plexus-compiler-manager-2.11.1.jar;C:\Users\prave\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.11.1\plexus-compiler-javac-2.11.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\prave\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\prave\AppData\Local\Temp\surefire109034813474739889\surefirebooter2067117225053043332.jar C:\Users\prave\AppData\Local\Temp\surefire109034813474739889 2022-03-26T09-35-59_077-jvmRun1 surefire12502918225536956221tmp surefire_08076480723916471648tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\prave\eclipse-workspace\Comprehensive_Hybrid_Framework\target\test-classes;C:\Users\prave\eclipse-workspace\Comprehensive_Hybrid_Framework\target\classes;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\prave\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\prave\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\prave\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\prave\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\prave\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\prave\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\prave\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\prave\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\prave\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\prave\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\prave\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\prave\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\prave\.m2\repository\org\apache\poi\poi-ooxml\5.2.0\poi-ooxml-5.2.0.jar;C:\Users\prave\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.0\poi-ooxml-lite-5.2.0.jar;C:\Users\prave\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\prave\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\prave\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\prave\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\prave\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\prave\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\prave\.m2\repository\org\apache\poi\poi\5.2.0\poi-5.2.0.jar;C:\Users\prave\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\prave\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\prave\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\prave\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\prave\.m2\repository\com\aventstack\extentreports\4.1.7\extentreports-4.1.7.jar;C:\Users\prave\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\prave\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\prave\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\prave\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\prave\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\prave\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\prave\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\prave\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\prave\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\prave\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\prave\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\prave\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.10.1\maven-compiler-plugin-3.10.1.jar;C:\Users\prave\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\prave\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\prave\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\prave\.m2\repository\org\codehaus\plexus\plexus-java\1.1.1\plexus-java-1.1.1.jar;C:\Users\prave\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\prave\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar;C:\Users\prave\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.11.1\plexus-compiler-api-2.11.1.jar;C:\Users\prave\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.1\plexus-utils-3.4.1.jar;C:\Users\prave\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.11.1\plexus-compiler-manager-2.11.1.jar;C:\Users\prave\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.11.1\plexus-compiler-javac-2.11.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\prave"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Users\prave\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\prave\eclipse-workspace\Comprehensive_Hybrid_Framework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\prave\AppData\Local\Temp\surefire109034813474739889\surefirebooter2067117225053043332.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.2+7-67"/>
+    <property name="user.name" value="prave"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\prave\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\prave\AppData\Local\Temp\"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="user.dir" value="C:\Users\prave\eclipse-workspace\Comprehensive_Hybrid_Framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\prave\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/prave/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin/server;C:/Users/prave/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk1.8.0_101\bin;F:\Maven\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Program Files\Git\cmd;C:\Program Files\Notepad++;C:\Program Files\Perforce\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\prave\AppData\Local\Microsoft\WindowsApps;;C:\Users\prave\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\prave\OneDrive\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.2+7-67"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="setUp" classname="runner.BuyPropertyArticle" time="0.001">
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 12239
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1648267561.559][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 26, 2022 9:36:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN No such property [maxBackupIndex] in org.apache.log4j.DailyRollingFileAppender.
+log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
+log4j:ERROR Could not find value for key log4j.appender.DEBUG
+log4j:ERROR Could not instantiate appender named "DEBUG".
+]]></system-err>
+  </testcase>
+  <testcase name="openNoDroker" classname="runner.BuyPropertyArticle" time="3.36">
+    <system-out><![CDATA[2022-03-26 09:36:02 INFO  BuyPropertyArticle:19 - Open NoBroker
+2022-03-26 09:36:04 INFO  BuyPropertyArticle:19 - NoBroker as opened
+Search Type
+buy
+City
+Mumbai
+Dropdown2
+1 BHK
+Dropdown3
+Ready
+Locality
+Colaba, Mumbai, Maharashtra, India
+]]></system-out>
+    <system-err><![CDATA[log4j:ERROR Failed to rename [./Logs/nobroker.log] to [./Logs/nobroker.log.2022-03-25 17:36:36].
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+  </testcase>
+  <testcase name="selectSearchType" classname="runner.BuyPropertyArticle" time="0.345">
+    <system-out><![CDATA[2022-03-26 09:36:05 INFO  HomePage:19 - Clicking on buy option
+2022-03-26 09:36:05 INFO  HomePage:19 - buy is selected
+]]></system-out>
+  </testcase>
+  <testcase name="selectCity" classname="runner.BuyPropertyArticle" time="0.261">
+    <system-out><![CDATA[2022-03-26 09:36:05 INFO  HomePage:19 - Clicking on city dropdown and selecting Mumbai
+2022-03-26 09:36:05 INFO  HomePage:19 - Mumbai selected
+]]></system-out>
+  </testcase>
+  <testcase name="optionFromDropDown" classname="runner.BuyPropertyArticle" time="0.538">
+    <system-out><![CDATA[2022-03-26 09:36:05 INFO  HomePage:19 - Clicking on dropdown and selecting 1 BHK
+2022-03-26 09:36:06 INFO  HomePage:19 - 1 BHK is selected
+2022-03-26 09:36:06 INFO  HomePage:19 - Clicking on dropdown and selecting Ready
+2022-03-26 09:36:06 INFO  HomePage:19 - Ready is selected
+]]></system-out>
+  </testcase>
+  <testcase name="selectLocalityAndSearch" classname="runner.BuyPropertyArticle" time="1.939">
+    <system-out><![CDATA[2022-03-26 09:36:06 INFO  HomePage:19 - Typing Colaba, Mumbai, Maharashtra, India in search bar and clicking on search button
+2022-03-26 09:36:08 INFO  HomePage:19 - Property list page is  opened
+]]></system-out>
+  </testcase>
+  <testcase name="clickArticle" classname="runner.BuyPropertyArticle" time="1.143">
+    <system-out><![CDATA[2022-03-26 09:36:08 INFO  HomePage:19 - Clicking on a property artical
+2022-03-26 09:36:09 INFO  HomePage:19 - Property article opened in another page
+]]></system-out>
+  </testcase>
+  <testcase name="seePhotos" classname="runner.BuyPropertyArticle" time="1.014">
+    <system-out><![CDATA[2022-03-26 09:36:09 INFO  HomePage:19 - Clicking on photos
+2022-03-26 09:36:10 INFO  HomePage:19 - Photo Lighbox of the property has opened
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="runner.BuyPropertyMap" time="0">
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 11878
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1648267572.834][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 26, 2022 9:36:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="openNoDroker" classname="runner.BuyPropertyMap" time="2.394">
+    <system-out><![CDATA[2022-03-26 09:36:13 INFO  BuyPropertyMap:19 - Open NoBroker
+2022-03-26 09:36:15 INFO  BuyPropertyMap:19 - NoBroker as opened
+Search Type
+buy
+City
+Mumbai
+Dropdown2
+1 BHK
+Dropdown3
+Ready
+Locality
+Colaba, Mumbai, Maharashtra, India
+]]></system-out>
+  </testcase>
+  <testcase name="selectSearchType" classname="runner.BuyPropertyMap" time="0.624">
+    <system-out><![CDATA[2022-03-26 09:36:15 INFO  HomePage:19 - Clicking on buy option
+2022-03-26 09:36:16 INFO  HomePage:19 - buy is selected
+]]></system-out>
+  </testcase>
+  <testcase name="selectCity" classname="runner.BuyPropertyMap" time="0.19">
+    <system-out><![CDATA[2022-03-26 09:36:16 INFO  HomePage:19 - Clicking on city dropdown and selecting Mumbai
+2022-03-26 09:36:16 INFO  HomePage:19 - Mumbai selected
+]]></system-out>
+  </testcase>
+  <testcase name="optionFromDropDown" classname="runner.BuyPropertyMap" time="0.488">
+    <system-out><![CDATA[2022-03-26 09:36:16 INFO  HomePage:19 - Clicking on dropdown and selecting 1 BHK
+2022-03-26 09:36:16 INFO  HomePage:19 - 1 BHK is selected
+2022-03-26 09:36:16 INFO  HomePage:19 - Clicking on dropdown and selecting Ready
+2022-03-26 09:36:16 INFO  HomePage:19 - Ready is selected
+]]></system-out>
+  </testcase>
+  <testcase name="selectLocalityAndSearch" classname="runner.BuyPropertyMap" time="2.012">
+    <system-out><![CDATA[2022-03-26 09:36:16 INFO  HomePage:19 - Typing Colaba, Mumbai, Maharashtra, India in search bar and clicking on search button
+2022-03-26 09:36:18 INFO  HomePage:19 - Property list page is  opened
+]]></system-out>
+  </testcase>
+  <testcase name="swithMapAndZoom" classname="runner.BuyPropertyMap" time="3.218">
+    <system-out><![CDATA[2022-03-26 09:36:18 INFO  HomePage:19 - Clicking on map display
+2022-03-26 09:36:20 INFO  HomePage:19 - map is selected
+2022-03-26 09:36:20 INFO  HomePage:19 - Clicking on fullscreen button on the map
+2022-03-26 09:36:21 INFO  HomePage:19 - Map has opened in fullscreen
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="runner.RentMap" time="0">
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 36383
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1648267583.917][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 26, 2022 9:36:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="openNoDroker" classname="runner.RentMap" time="2.046">
+    <system-out><![CDATA[2022-03-26 09:36:24 INFO  RentMap:19 - Open NoBroker
+2022-03-26 09:36:26 INFO  RentMap:19 - NoBroker as opened
+Search Type
+rent
+City
+Bangalore
+Radio
+full house
+Dropdown2
+1 RK
+Dropdown3
+Immediate
+Locality
+Basavanagudi, Bengaluru, Karnataka, India
+]]></system-out>
+  </testcase>
+  <testcase name="selectSearchType" classname="runner.RentMap" time="0.655">
+    <system-out><![CDATA[2022-03-26 09:36:26 INFO  HomePage:19 - Clicking on rent option
+2022-03-26 09:36:26 INFO  HomePage:19 - rent is selected
+]]></system-out>
+  </testcase>
+  <testcase name="selectCity" classname="runner.RentMap" time="0.3">
+    <system-out><![CDATA[2022-03-26 09:36:26 INFO  HomePage:19 - Clicking on city dropdown and selecting Bangalore
+2022-03-26 09:36:27 INFO  HomePage:19 - Bangalore selected
+]]></system-out>
+  </testcase>
+  <testcase name="selectRentPropertyType" classname="runner.RentMap" time="0.098">
+    <system-out><![CDATA[2022-03-26 09:36:27 INFO  HomePage:19 - Clicking on full house option
+2022-03-26 09:36:27 INFO  HomePage:19 - full house is selected
+]]></system-out>
+  </testcase>
+  <testcase name="optionFromDropDown" classname="runner.RentMap" time="0.42">
+    <system-out><![CDATA[2022-03-26 09:36:27 INFO  HomePage:19 - Clicking on dropdown and selecting 1 RK
+2022-03-26 09:36:27 INFO  HomePage:19 - 1 RK is selected
+2022-03-26 09:36:27 INFO  HomePage:19 - Clicking on dropdown and selecting Immediate
+2022-03-26 09:36:27 INFO  HomePage:19 - Immediate is selected
+]]></system-out>
+  </testcase>
+  <testcase name="selectLocalityAndSearch" classname="runner.RentMap" time="1.955">
+    <system-out><![CDATA[2022-03-26 09:36:27 INFO  HomePage:19 - Typing Basavanagudi, Bengaluru, Karnataka, India in search bar and clicking on search button
+2022-03-26 09:36:29 INFO  HomePage:19 - Property list page is  opened
+]]></system-out>
+  </testcase>
+  <testcase name="swithMapAndZoom" classname="runner.RentMap" time="4.226">
+    <system-out><![CDATA[2022-03-26 09:36:29 INFO  HomePage:19 - Clicking on map display
+2022-03-26 09:36:30 INFO  HomePage:19 - map is selected
+2022-03-26 09:36:30 INFO  HomePage:19 - Clicking on fullscreen button on the map
+2022-03-26 09:36:33 INFO  HomePage:19 - Map has opened in fullscreen
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="runner.RentArticle" time="0">
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 16935
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1648267595.631][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 26, 2022 9:36:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="openNoDroker" classname="runner.RentArticle" time="2.938">
+    <system-out><![CDATA[2022-03-26 09:36:35 INFO  RentArticle:19 - Open NoBroker
+2022-03-26 09:36:38 INFO  RentArticle:19 - NoBroker as opened
+Search Type
+rent
+City
+Bangalore
+Radio
+full house
+Dropdown2
+1 RK
+Dropdown3
+Immediate
+Locality
+Basavanagudi, Bengaluru, Karnataka, India
+]]></system-out>
+  </testcase>
+  <testcase name="selectSearchType" classname="runner.RentArticle" time="0.349">
+    <system-out><![CDATA[2022-03-26 09:36:38 INFO  HomePage:19 - Clicking on rent option
+2022-03-26 09:36:39 INFO  HomePage:19 - rent is selected
+]]></system-out>
+  </testcase>
+  <testcase name="selectCity" classname="runner.RentArticle" time="0.473">
+    <system-out><![CDATA[2022-03-26 09:36:39 INFO  HomePage:19 - Clicking on city dropdown and selecting Bangalore
+2022-03-26 09:36:39 INFO  HomePage:19 - Bangalore selected
+]]></system-out>
+  </testcase>
+  <testcase name="selectRentPropertyType" classname="runner.RentArticle" time="0.076">
+    <system-out><![CDATA[2022-03-26 09:36:39 INFO  HomePage:19 - Clicking on full house option
+2022-03-26 09:36:39 INFO  HomePage:19 - full house is selected
+]]></system-out>
+  </testcase>
+  <testcase name="optionFromDropDown" classname="runner.RentArticle" time="0.42">
+    <system-out><![CDATA[2022-03-26 09:36:39 INFO  HomePage:19 - Clicking on dropdown and selecting 1 RK
+2022-03-26 09:36:39 INFO  HomePage:19 - 1 RK is selected
+2022-03-26 09:36:39 INFO  HomePage:19 - Clicking on dropdown and selecting Immediate
+2022-03-26 09:36:40 INFO  HomePage:19 - Immediate is selected
+]]></system-out>
+  </testcase>
+  <testcase name="selectLocalityAndSearch" classname="runner.RentArticle" time="1.725">
+    <system-out><![CDATA[2022-03-26 09:36:40 INFO  HomePage:19 - Typing Basavanagudi, Bengaluru, Karnataka, India in search bar and clicking on search button
+2022-03-26 09:36:41 INFO  HomePage:19 - Property list page is  opened
+]]></system-out>
+  </testcase>
+  <testcase name="clickArticle" classname="runner.RentArticle" time="0.498">
+    <failure message="Index 1 out of bounds for length 1" type="java.lang.IndexOutOfBoundsException"><![CDATA[java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at runner.RentArticle.clickArticle(RentArticle.java:79)
+]]></failure>
+    <system-out><![CDATA[2022-03-26 09:36:41 INFO  HomePage:19 - Clicking on a property artical
+]]></system-out>
+  </testcase>
+  <testcase name="seePhotos" classname="runner.RentArticle" time="10.04">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[class=&apos;nb__baS10&apos;]&quot;}&#10;  (Session info: chrome=99.0.4844.82)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-16O54L56&apos;, ip: &apos;192.168.29.165&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\prave\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: bf2efae8df6de59c788709c6d4f0f185&#10;*** Element info: {Using=css selector, value=[class=&apos;nb__baS10&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"[class='nb__baS10']"}
+  (Session info: chrome=99.0.4844.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-16O54L56', ip: '192.168.29.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\prave\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bf2efae8df6de59c788709c6d4f0f185
+*** Element info: {Using=css selector, value=[class='nb__baS10']}
+	at runner.RentArticle.seePhotos(RentArticle.java:85)
+]]></failure>
+    <system-out><![CDATA[2022-03-26 09:36:42 INFO  HomePage:19 - Clicking on photos
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="runner.CommercialPropertyArticle" time="0">
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 8308
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1648267614.172][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 26, 2022 9:36:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="openNoDroker" classname="runner.CommercialPropertyArticle" time="2.625">
+    <system-out><![CDATA[2022-03-26 09:36:54 INFO  CommercialPropertyArticle:19 - Open NoBroker
+2022-03-26 09:36:56 INFO  CommercialPropertyArticle:19 - NoBroker as opened
+Search Type
+commercial
+City
+Pune
+Radio
+rent
+Dropdown2
+Office Space
+Locality
+Kothrud, Pune, Maharashtra, India
+]]></system-out>
+  </testcase>
+  <testcase name="selectSearchType" classname="runner.CommercialPropertyArticle" time="0.335">
+    <system-out><![CDATA[2022-03-26 09:36:57 INFO  HomePage:19 - Clicking on commercial option
+2022-03-26 09:36:57 INFO  HomePage:19 - commercial is selected
+]]></system-out>
+  </testcase>
+  <testcase name="selectCity" classname="runner.CommercialPropertyArticle" time="0.48">
+    <system-out><![CDATA[2022-03-26 09:36:57 INFO  HomePage:19 - Clicking on city dropdown and selecting Pune
+2022-03-26 09:36:57 INFO  HomePage:19 - Pune selected
+]]></system-out>
+  </testcase>
+  <testcase name="selectCommercialPropertyType" classname="runner.CommercialPropertyArticle" time="0.081">
+    <system-out><![CDATA[2022-03-26 09:36:57 INFO  HomePage:19 - Clicking on rent option
+2022-03-26 09:36:57 INFO  HomePage:19 - rent is selected
+]]></system-out>
+  </testcase>
+  <testcase name="optionFromDropDown" classname="runner.CommercialPropertyArticle" time="0.338">
+    <system-out><![CDATA[2022-03-26 09:36:57 INFO  HomePage:19 - Clicking on dropdown and selecting Office Space
+2022-03-26 09:36:58 INFO  HomePage:19 - Office Space is selected
+]]></system-out>
+  </testcase>
+  <testcase name="selectLocalityAndSearch" classname="runner.CommercialPropertyArticle" time="1.624">
+    <system-out><![CDATA[2022-03-26 09:36:58 INFO  HomePage:19 - Typing Kothrud, Pune, Maharashtra, India in search bar and clicking on search button
+2022-03-26 09:36:59 INFO  HomePage:19 - Property list page is  opened
+]]></system-out>
+  </testcase>
+  <testcase name="clickArticle" classname="runner.CommercialPropertyArticle" time="1.126">
+    <system-out><![CDATA[2022-03-26 09:36:59 INFO  HomePage:19 - Clicking on a property artical
+2022-03-26 09:37:00 INFO  HomePage:19 - Property article opened in another page
+]]></system-out>
+    <system-err><![CDATA[log4j:ERROR Failed to rename [./Logs/nobroker.log] to [./Logs/nobroker.log.2022-03-26 09:36:02].
+]]></system-err>
+  </testcase>
+  <testcase name="seePhotos" classname="runner.CommercialPropertyArticle" time="1.096">
+    <system-out><![CDATA[2022-03-26 09:37:00 INFO  HomePage:19 - Clicking on photos
+2022-03-26 09:37:02 INFO  HomePage:19 - Photo Lighbox of the property has opened
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="runner.CommercialPropertyMap" time="0">
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 35930
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1648267623.610][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 26, 2022 9:37:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="openNoDroker" classname="runner.CommercialPropertyMap" time="2.219">
+    <system-out><![CDATA[2022-03-26 09:37:03 INFO  CommercialPropertyMap:19 - Open NoBroker
+2022-03-26 09:37:05 INFO  CommercialPropertyMap:19 - NoBroker as opened
+Search Type
+commercial
+City
+Pune
+Radio
+rent
+Dropdown2
+Office Space
+Locality
+Kothrud, Pune, Maharashtra, India
+]]></system-out>
+  </testcase>
+  <testcase name="selectSearchType" classname="runner.CommercialPropertyMap" time="0.641">
+    <system-out><![CDATA[2022-03-26 09:37:05 INFO  HomePage:19 - Clicking on commercial option
+2022-03-26 09:37:06 INFO  HomePage:19 - commercial is selected
+]]></system-out>
+  </testcase>
+  <testcase name="selectCity" classname="runner.CommercialPropertyMap" time="0.256">
+    <system-out><![CDATA[2022-03-26 09:37:06 INFO  HomePage:19 - Clicking on city dropdown and selecting Pune
+2022-03-26 09:37:06 INFO  HomePage:19 - Pune selected
+]]></system-out>
+  </testcase>
+  <testcase name="selectCommercialPropertyType" classname="runner.CommercialPropertyMap" time="0.092">
+    <system-out><![CDATA[2022-03-26 09:37:06 INFO  HomePage:19 - Clicking on rent option
+2022-03-26 09:37:07 INFO  HomePage:19 - rent is selected
+]]></system-out>
+  </testcase>
+  <testcase name="optionFromDropDown" classname="runner.CommercialPropertyMap" time="0.226">
+    <system-out><![CDATA[2022-03-26 09:37:07 INFO  HomePage:19 - Clicking on dropdown and selecting Office Space
+2022-03-26 09:37:07 INFO  HomePage:19 - Office Space is selected
+]]></system-out>
+  </testcase>
+  <testcase name="selectLocalityAndSearch" classname="runner.CommercialPropertyMap" time="1.906">
+    <system-out><![CDATA[2022-03-26 09:37:07 INFO  HomePage:19 - Typing Kothrud, Pune, Maharashtra, India in search bar and clicking on search button
+2022-03-26 09:37:09 INFO  HomePage:19 - Property list page is  opened
+]]></system-out>
+  </testcase>
+  <testcase name="swithMapAndZoom" classname="runner.CommercialPropertyMap" time="3.652">
+    <system-out><![CDATA[2022-03-26 09:37:09 INFO  HomePage:19 - Clicking on map display
+2022-03-26 09:37:10 INFO  HomePage:19 - map is selected
+2022-03-26 09:37:10 INFO  HomePage:19 - Clicking on fullscreen button on the map
+2022-03-26 09:37:12 INFO  HomePage:19 - Map has opened in fullscreen
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="runner.EmiCalculator" time="0">
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 46261
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1648267634.636][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 26, 2022 9:37:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="openNoDroker" classname="runner.EmiCalculator" time="2.065">
+    <system-out><![CDATA[2022-03-26 09:37:14 INFO  EmiCalculator:19 - Open NoBroker
+2022-03-26 09:37:16 INFO  EmiCalculator:19 - NoBroker as opened
+Loan Amount
+2054500
+Rate Of Interest
+10
+Loan Tenure
+30
+]]></system-out>
+  </testcase>
+  <testcase name="emiFooterLink" classname="runner.EmiCalculator" time="2.563">
+    <system-out><![CDATA[2022-03-26 09:37:16 INFO  Footer:19 - Clicking on emi calculator
+2022-03-26 09:37:19 INFO  Footer:19 - Emi calculator page has opened
+]]></system-out>
+  </testcase>
+  <testcase name="loanAmount" classname="runner.EmiCalculator" time="0.2">
+    <system-out><![CDATA[2054500  sdjhskjfhskfjh
+2022-03-26 09:37:19 INFO  HomePage:19 - Entering 2054500 loan amount
+]]></system-out>
+  </testcase>
+  <testcase name="rateOfInterest" classname="runner.EmiCalculator" time="0.095">
+    <system-out><![CDATA[2022-03-26 09:37:19 INFO  HomePage:19 - Entering 10 rate of interest
+]]></system-out>
+  </testcase>
+  <testcase name="loanTenure" classname="runner.EmiCalculator" time="0.111">
+    <system-out><![CDATA[2022-03-26 09:37:19 INFO  HomePage:19 - Entering 30 loan tenure
+]]></system-out>
+  </testcase>
+  <testcase name="output" classname="runner.EmiCalculator" time="0.435">
+    <system-out><![CDATA[2022-03-26 09:37:20 INFO  HomePage:19 - Emi is calculated
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="runner.AboutUs" time="0">
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 27053
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1648267641.541][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 26, 2022 9:37:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="openNoDroker" classname="runner.AboutUs" time="2.764">
+    <system-out><![CDATA[2022-03-26 09:37:21 INFO  AboutUs:19 - Open NoBroker
+2022-03-26 09:37:24 INFO  AboutUs:19 - NoBroker as opened
+]]></system-out>
+  </testcase>
+  <testcase name="clickAboutUs" classname="runner.AboutUs" time="1.152">
+    <system-out><![CDATA[2022-03-26 09:37:24 INFO  Footer:19 - Clicking on About Us
+2022-03-26 09:37:25 INFO  Footer:19 - About Us page has opened
+]]></system-out>
+  </testcase>
+  <testcase name="OpenTwitter" classname="runner.AboutUs" time="2.811">
+    <system-out><![CDATA[2022-03-26 09:37:25 INFO  HomePage:19 - Clicking on Contact Us
+2022-03-26 09:37:25 INFO  HomePage:19 - Contact Us section is open
+2022-03-26 09:37:25 INFO  HomePage:19 - Clicking on twitter icon in contact us
+2022-03-26 09:37:28 INFO  HomePage:19 - Twitter has opened
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="runner.Wallet" time="0">
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 30649
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1648267649.819][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 26, 2022 9:37:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="openNoDroker" classname="runner.Wallet" time="5.128">
+    <system-out><![CDATA[2022-03-26 09:37:30 INFO  AboutUs:19 - Open NoBroker
+2022-03-26 09:37:35 INFO  AboutUs:19 - NoBroker as opened
+]]></system-out>
+  </testcase>
+  <testcase name="openMenu" classname="runner.Wallet" time="0.178">
+    <system-out><![CDATA[2022-03-26 09:37:35 INFO  HomePage:19 - Clicking on Hamburger menu
+2022-03-26 09:37:35 INFO  HomePage:19 - Menu is open
+]]></system-out>
+  </testcase>
+  <testcase name="openWallet" classname="runner.Wallet" time="0.709">
+    <system-out><![CDATA[2022-03-26 09:37:35 INFO  HomePage:19 - Clicking on NBcash and wallet summary
+2022-03-26 09:37:36 INFO  HomePage:19 - Wallet Summary page has opened
+]]></system-out>
+  </testcase>
+  <testcase name="joinClub" classname="runner.Wallet" time="0.136">
+    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=99.0.4844.82)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-16O54L56&apos;, ip: &apos;192.168.29.165&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\prave\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62231}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 25a639e5ce2f4b9f334d5dd731f1fc82" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=99.0.4844.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-16O54L56', ip: '192.168.29.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\prave\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62231}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 25a639e5ce2f4b9f334d5dd731f1fc82
+	at runner.Wallet.joinClub(Wallet.java:57)
+]]></failure>
+    <system-out><![CDATA[2022-03-26 09:37:36 INFO  HomePage:19 - Cliking on Join club
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="runner.Interior" time="0">
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 4925
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1648267657.246][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 26, 2022 9:37:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="openNoDroker" classname="runner.Interior" time="1.551">
+    <system-out><![CDATA[2022-03-26 09:37:37 INFO  AboutUs:19 - Open NoBroker
+2022-03-26 09:37:38 INFO  AboutUs:19 - NoBroker as opened
+]]></system-out>
+  </testcase>
+  <testcase name="openMenu" classname="runner.Interior" time="0.194">
+    <system-out><![CDATA[2022-03-26 09:37:38 INFO  HomePage:19 - Clicking on Hamburger menu
+2022-03-26 09:37:39 INFO  HomePage:19 - Menu is open
+]]></system-out>
+  </testcase>
+  <testcase name="openInterior" classname="runner.Interior" time="6.451">
+    <system-out><![CDATA[2022-03-26 09:37:39 INFO  HomePage:19 - Clicking on Home Services and Interiors
+2022-03-26 09:37:45 INFO  HomePage:19 - Interiors page has opened
+]]></system-out>
+  </testcase>
+  <testcase name="seeRoomPhotos" classname="runner.Interior" time="1.533">
+    <system-out><![CDATA[2022-03-26 09:37:45 INFO  HomePage:19 - Clicking on Rooms to see photos
+2022-03-26 09:37:47 INFO  HomePage:19 - Room photos are displayed
+]]></system-out>
+  </testcase>
+</testsuite>

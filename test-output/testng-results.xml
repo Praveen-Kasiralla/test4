@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-25T17:33:17 IST" name="Suite" finished-at="2022-03-25T17:33:26 IST" duration-ms="9434">
+    <groups>
+    </groups>
+    <test started-at="2022-03-25T17:33:17 IST" name="Test1" finished-at="2022-03-25T17:33:26 IST" duration-ms="9434">
+      <class name="runner.BuyPropertyArticle">
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.BuyPropertyArticle@5a56cdac]" started-at="2022-03-25T17:33:17 IST" name="required" finished-at="2022-03-25T17:33:17 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:runner.BuyPropertyArticle@5a56cdac]" started-at="2022-03-25T17:33:17 IST" name="driverSetUp" finished-at="2022-03-25T17:33:18 IST" duration-ms="1427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="setUp()[pri:0, instance:runner.BuyPropertyArticle@5a56cdac]" started-at="2022-03-25T17:33:18 IST" name="setUp" finished-at="2022-03-25T17:33:18 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openNoDroker()[pri:1, instance:runner.BuyPropertyArticle@5a56cdac]" started-at="2022-03-25T17:33:18 IST" name="openNoDroker" finished-at="2022-03-25T17:33:21 IST" duration-ms="2623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openNoDroker -->
+        <test-method signature="selectSearchType()[pri:2, instance:runner.BuyPropertyArticle@5a56cdac]" started-at="2022-03-25T17:33:21 IST" name="selectSearchType" finished-at="2022-03-25T17:33:21 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSearchType -->
+        <test-method signature="selectCity()[pri:3, instance:runner.BuyPropertyArticle@5a56cdac]" started-at="2022-03-25T17:33:21 IST" name="selectCity" finished-at="2022-03-25T17:33:21 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCity -->
+        <test-method signature="optionFromDropDown()[pri:4, instance:runner.BuyPropertyArticle@5a56cdac]" started-at="2022-03-25T17:33:21 IST" name="optionFromDropDown" finished-at="2022-03-25T17:33:22 IST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- optionFromDropDown -->
+        <test-method signature="selectLocalityAndSearch()[pri:5, instance:runner.BuyPropertyArticle@5a56cdac]" started-at="2022-03-25T17:33:22 IST" name="selectLocalityAndSearch" finished-at="2022-03-25T17:33:24 IST" duration-ms="1595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLocalityAndSearch -->
+        <test-method signature="clickArticle()[pri:7, instance:runner.BuyPropertyArticle@5a56cdac]" started-at="2022-03-25T17:33:24 IST" name="clickArticle" finished-at="2022-03-25T17:33:24 IST" duration-ms="773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickArticle -->
+        <test-method signature="seePhotos()[pri:8, instance:runner.BuyPropertyArticle@5a56cdac]" started-at="2022-03-25T17:33:24 IST" name="seePhotos" finished-at="2022-03-25T17:33:25 IST" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seePhotos -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.BuyPropertyArticle@5a56cdac]" started-at="2022-03-25T17:33:25 IST" name="driverExit" finished-at="2022-03-25T17:33:26 IST" duration-ms="1202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+      </class> <!-- runner.BuyPropertyArticle -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
