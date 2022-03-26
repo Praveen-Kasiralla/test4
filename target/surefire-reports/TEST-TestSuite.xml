@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="83.029" tests="70" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="95.069" tests="70" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="webdriver.chrome.driver" value="./Drivers/chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\prave\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\prave\AppData\Local\Temp\surefire12848214199916986004\surefirebooter3608212319899870625.jar C:\Users\prave\AppData\Local\Temp\surefire12848214199916986004 2022-03-26T10-08-49_241-jvmRun1 surefire8332392653735149276tmp surefire_011668720329170432168tmp"/>
+    <property name="sun.java.command" value="C:\Users\prave\AppData\Local\Temp\surefire15601426057929206717\surefirebooter2338355011769354137.jar C:\Users\prave\AppData\Local\Temp\surefire15601426057929206717 2022-03-26T13-28-09_679-jvmRun1 surefire13166842419853290991tmp surefire_013555916415137781127tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\prave\eclipse-workspace\Comprehensive_Hybrid_Framework\target\test-classes;C:\Users\prave\eclipse-workspace\Comprehensive_Hybrid_Framework\target\classes;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\prave\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\prave\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\prave\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\prave\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\prave\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\prave\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\prave\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\prave\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\prave\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\prave\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\prave\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\prave\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\prave\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\prave\.m2\repository\org\apache\poi\poi-ooxml\5.2.0\poi-ooxml-5.2.0.jar;C:\Users\prave\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.0\poi-ooxml-lite-5.2.0.jar;C:\Users\prave\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\prave\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\prave\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\prave\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\prave\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\prave\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\prave\.m2\repository\org\apache\poi\poi\5.2.0\poi-5.2.0.jar;C:\Users\prave\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\prave\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\prave\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\prave\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\prave\.m2\repository\com\aventstack\extentreports\4.1.7\extentreports-4.1.7.jar;C:\Users\prave\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\prave\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\prave\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\prave\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\prave\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\prave\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\prave\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\prave\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\prave\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\prave\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\prave\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\prave\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.10.1\maven-compiler-plugin-3.10.1.jar;C:\Users\prave\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\prave\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\prave\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\prave\.m2\repository\org\codehaus\plexus\plexus-java\1.1.1\plexus-java-1.1.1.jar;C:\Users\prave\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\prave\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar;C:\Users\prave\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.11.1\plexus-compiler-api-2.11.1.jar;C:\Users\prave\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.1\plexus-utils-3.4.1.jar;C:\Users\prave\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.11.1\plexus-compiler-manager-2.11.1.jar;C:\Users\prave\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.11.1\plexus-compiler-javac-2.11.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\prave\AppData\Local\Temp\surefire12848214199916986004\surefirebooter3608212319899870625.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\prave\AppData\Local\Temp\surefire15601426057929206717\surefirebooter2338355011769354137.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.2+7-67"/>
@@ -56,13 +56,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="setUp" classname="runner.BuyPropertyArticle" time="0.001">
-    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 10200
+  <testcase name="setUp" classname="runner.BuyPropertyArticle" time="0.002">
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 28513
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1648269531.078][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
-Mar 26, 2022 10:08:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1648281492.143][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 26, 2022 1:28:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 log4j:WARN No such property [maxBackupIndex] in org.apache.log4j.DailyRollingFileAppender.
 log4j:WARN No such property [maxFileSize] in org.apache.log4j.DailyRollingFileAppender.
@@ -70,9 +70,9 @@ log4j:ERROR Could not find value for key log4j.appender.DEBUG
 log4j:ERROR Could not instantiate appender named "DEBUG".
 ]]></system-err>
   </testcase>
-  <testcase name="openNoDroker" classname="runner.BuyPropertyArticle" time="3.155">
-    <system-out><![CDATA[2022-03-26 10:08:51 INFO  BuyPropertyArticle:19 - Open NoBroker
-2022-03-26 10:08:54 INFO  BuyPropertyArticle:19 - NoBroker as opened
+  <testcase name="openNoDroker" classname="runner.BuyPropertyArticle" time="2.796">
+    <system-out><![CDATA[2022-03-26 13:28:12 INFO  BuyPropertyArticle:19 - Open NoBroker
+2022-03-26 13:28:14 INFO  BuyPropertyArticle:19 - NoBroker as opened
 Search Type
 buy
 City
@@ -84,55 +84,55 @@ Ready
 Locality
 Colaba, Mumbai, Maharashtra, India
 ]]></system-out>
-    <system-err><![CDATA[log4j:ERROR Failed to rename [./Logs/nobroker.log] to [./Logs/nobroker.log.2022-03-26 10:08:16].
+    <system-err><![CDATA[log4j:ERROR Failed to rename [./Logs/nobroker.log] to [./Logs/nobroker.log.2022-03-26 13:27:03].
 ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
 ]]></system-err>
   </testcase>
-  <testcase name="selectSearchType" classname="runner.BuyPropertyArticle" time="0.221">
-    <system-out><![CDATA[2022-03-26 10:08:54 INFO  HomePage:19 - Clicking on buy option
-2022-03-26 10:08:54 INFO  HomePage:19 - buy is selected
+  <testcase name="selectSearchType" classname="runner.BuyPropertyArticle" time="0.599">
+    <system-out><![CDATA[2022-03-26 13:28:15 INFO  HomePage:19 - Clicking on buy option
+2022-03-26 13:28:16 INFO  HomePage:19 - buy is selected
 ]]></system-out>
   </testcase>
-  <testcase name="selectCity" classname="runner.BuyPropertyArticle" time="0.24">
-    <system-out><![CDATA[2022-03-26 10:08:54 INFO  HomePage:19 - Clicking on city dropdown and selecting Mumbai
-2022-03-26 10:08:55 INFO  HomePage:19 - Mumbai selected
+  <testcase name="selectCity" classname="runner.BuyPropertyArticle" time="0.272">
+    <system-out><![CDATA[2022-03-26 13:28:16 INFO  HomePage:19 - Clicking on city dropdown and selecting Mumbai
+2022-03-26 13:28:16 INFO  HomePage:19 - Mumbai selected
 ]]></system-out>
   </testcase>
-  <testcase name="optionFromDropDown" classname="runner.BuyPropertyArticle" time="0.375">
-    <system-out><![CDATA[2022-03-26 10:08:55 INFO  HomePage:19 - Clicking on dropdown and selecting 1 BHK
-2022-03-26 10:08:55 INFO  HomePage:19 - 1 BHK is selected
-2022-03-26 10:08:55 INFO  HomePage:19 - Clicking on dropdown and selecting Ready
-2022-03-26 10:08:55 INFO  HomePage:19 - Ready is selected
+  <testcase name="optionFromDropDown" classname="runner.BuyPropertyArticle" time="0.522">
+    <system-out><![CDATA[2022-03-26 13:28:16 INFO  HomePage:19 - Clicking on dropdown and selecting 1 BHK
+2022-03-26 13:28:16 INFO  HomePage:19 - 1 BHK is selected
+2022-03-26 13:28:16 INFO  HomePage:19 - Clicking on dropdown and selecting Ready
+2022-03-26 13:28:16 INFO  HomePage:19 - Ready is selected
 ]]></system-out>
   </testcase>
-  <testcase name="selectLocalityAndSearch" classname="runner.BuyPropertyArticle" time="2.131">
-    <system-out><![CDATA[2022-03-26 10:08:55 INFO  HomePage:19 - Typing Colaba, Mumbai, Maharashtra, India in search bar and clicking on search button
-2022-03-26 10:08:57 INFO  HomePage:19 - Property list page is  opened
+  <testcase name="selectLocalityAndSearch" classname="runner.BuyPropertyArticle" time="1.851">
+    <system-out><![CDATA[2022-03-26 13:28:16 INFO  HomePage:19 - Typing Colaba, Mumbai, Maharashtra, India in search bar and clicking on search button
+2022-03-26 13:28:18 INFO  HomePage:19 - Property list page is  opened
 ]]></system-out>
   </testcase>
-  <testcase name="clickArticle" classname="runner.BuyPropertyArticle" time="0.796">
-    <system-out><![CDATA[2022-03-26 10:08:57 INFO  HomePage:19 - Clicking on a property artical
-2022-03-26 10:08:58 INFO  HomePage:19 - Property article opened in another page
+  <testcase name="clickArticle" classname="runner.BuyPropertyArticle" time="1.384">
+    <system-out><![CDATA[2022-03-26 13:28:18 INFO  HomePage:19 - Clicking on a property artical
+2022-03-26 13:28:20 INFO  HomePage:19 - Property article opened in another page
 ]]></system-out>
   </testcase>
-  <testcase name="seePhotos" classname="runner.BuyPropertyArticle" time="0.72">
-    <system-out><![CDATA[2022-03-26 10:08:58 INFO  HomePage:19 - Clicking on photos
-2022-03-26 10:08:59 INFO  HomePage:19 - Photo Lighbox of the property has opened
+  <testcase name="seePhotos" classname="runner.BuyPropertyArticle" time="0.922">
+    <system-out><![CDATA[2022-03-26 13:28:20 INFO  HomePage:19 - Clicking on photos
+2022-03-26 13:28:21 INFO  HomePage:19 - Photo Lighbox of the property has opened
 ]]></system-out>
   </testcase>
   <testcase name="setUp" classname="runner.BuyPropertyMap" time="0">
-    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 15973
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 45478
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1648269540.911][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
-Mar 26, 2022 10:09:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1648281503.207][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 26, 2022 1:28:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="openNoDroker" classname="runner.BuyPropertyMap" time="1.877">
-    <system-out><![CDATA[2022-03-26 10:09:01 INFO  BuyPropertyMap:19 - Open NoBroker
-2022-03-26 10:09:02 INFO  BuyPropertyMap:19 - NoBroker as opened
+  <testcase name="openNoDroker" classname="runner.BuyPropertyMap" time="2.009">
+    <system-out><![CDATA[2022-03-26 13:28:23 INFO  BuyPropertyMap:19 - Open NoBroker
+2022-03-26 13:28:25 INFO  BuyPropertyMap:19 - NoBroker as opened
 Search Type
 buy
 City
@@ -144,51 +144,49 @@ Ready
 Locality
 Colaba, Mumbai, Maharashtra, India
 ]]></system-out>
-    <system-err><![CDATA[log4j:ERROR Failed to rename [./Logs/nobroker.log] to [./Logs/nobroker.log.2022-03-26 10:08:51].
-]]></system-err>
   </testcase>
-  <testcase name="selectSearchType" classname="runner.BuyPropertyMap" time="0.241">
-    <system-out><![CDATA[2022-03-26 10:09:03 INFO  HomePage:19 - Clicking on buy option
-2022-03-26 10:09:03 INFO  HomePage:19 - buy is selected
+  <testcase name="selectSearchType" classname="runner.BuyPropertyMap" time="0.32">
+    <system-out><![CDATA[2022-03-26 13:28:25 INFO  HomePage:19 - Clicking on buy option
+2022-03-26 13:28:25 INFO  HomePage:19 - buy is selected
 ]]></system-out>
   </testcase>
-  <testcase name="selectCity" classname="runner.BuyPropertyMap" time="0.181">
-    <system-out><![CDATA[2022-03-26 10:09:03 INFO  HomePage:19 - Clicking on city dropdown and selecting Mumbai
-2022-03-26 10:09:03 INFO  HomePage:19 - Mumbai selected
+  <testcase name="selectCity" classname="runner.BuyPropertyMap" time="0.324">
+    <system-out><![CDATA[2022-03-26 13:28:25 INFO  HomePage:19 - Clicking on city dropdown and selecting Mumbai
+2022-03-26 13:28:26 INFO  HomePage:19 - Mumbai selected
 ]]></system-out>
   </testcase>
-  <testcase name="optionFromDropDown" classname="runner.BuyPropertyMap" time="0.458">
-    <system-out><![CDATA[2022-03-26 10:09:03 INFO  HomePage:19 - Clicking on dropdown and selecting 1 BHK
-2022-03-26 10:09:03 INFO  HomePage:19 - 1 BHK is selected
-2022-03-26 10:09:03 INFO  HomePage:19 - Clicking on dropdown and selecting Ready
-2022-03-26 10:09:03 INFO  HomePage:19 - Ready is selected
+  <testcase name="optionFromDropDown" classname="runner.BuyPropertyMap" time="0.664">
+    <system-out><![CDATA[2022-03-26 13:28:26 INFO  HomePage:19 - Clicking on dropdown and selecting 1 BHK
+2022-03-26 13:28:26 INFO  HomePage:19 - 1 BHK is selected
+2022-03-26 13:28:26 INFO  HomePage:19 - Clicking on dropdown and selecting Ready
+2022-03-26 13:28:26 INFO  HomePage:19 - Ready is selected
 ]]></system-out>
   </testcase>
-  <testcase name="selectLocalityAndSearch" classname="runner.BuyPropertyMap" time="1.623">
-    <system-out><![CDATA[2022-03-26 10:09:03 INFO  HomePage:19 - Typing Colaba, Mumbai, Maharashtra, India in search bar and clicking on search button
-2022-03-26 10:09:05 INFO  HomePage:19 - Property list page is  opened
+  <testcase name="selectLocalityAndSearch" classname="runner.BuyPropertyMap" time="2.073">
+    <system-out><![CDATA[2022-03-26 13:28:26 INFO  HomePage:19 - Typing Colaba, Mumbai, Maharashtra, India in search bar and clicking on search button
+2022-03-26 13:28:28 INFO  HomePage:19 - Property list page is  opened
 ]]></system-out>
   </testcase>
-  <testcase name="swithMapAndZoom" classname="runner.BuyPropertyMap" time="2.835">
-    <system-out><![CDATA[2022-03-26 10:09:05 INFO  HomePage:19 - Clicking on map display
-2022-03-26 10:09:06 INFO  HomePage:19 - map is selected
-2022-03-26 10:09:06 INFO  HomePage:19 - Clicking on fullscreen button on the map
-2022-03-26 10:09:08 INFO  HomePage:19 - Map has opened in fullscreen
+  <testcase name="swithMapAndZoom" classname="runner.BuyPropertyMap" time="3.288">
+    <system-out><![CDATA[2022-03-26 13:28:28 INFO  HomePage:19 - Clicking on map display
+2022-03-26 13:28:30 INFO  HomePage:19 - map is selected
+2022-03-26 13:28:30 INFO  HomePage:19 - Clicking on fullscreen button on the map
+2022-03-26 13:28:32 INFO  HomePage:19 - Map has opened in fullscreen
 ]]></system-out>
   </testcase>
   <testcase name="setUp" classname="runner.RentMap" time="0">
-    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 26975
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 28881
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1648269549.727][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
-Mar 26, 2022 10:09:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1648281514.023][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 26, 2022 1:28:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="openNoDroker" classname="runner.RentMap" time="1.88">
-    <system-out><![CDATA[2022-03-26 10:09:09 INFO  RentMap:19 - Open NoBroker
-2022-03-26 10:09:11 INFO  RentMap:19 - NoBroker as opened
+  <testcase name="openNoDroker" classname="runner.RentMap" time="1.975">
+    <system-out><![CDATA[2022-03-26 13:28:34 INFO  RentMap:19 - Open NoBroker
+2022-03-26 13:28:36 INFO  RentMap:19 - NoBroker as opened
 Search Type
 rent
 City
@@ -203,53 +201,53 @@ Locality
 Basavanagudi, Bengaluru, Karnataka, India
 ]]></system-out>
   </testcase>
-  <testcase name="selectSearchType" classname="runner.RentMap" time="0.28">
-    <system-out><![CDATA[2022-03-26 10:09:11 INFO  HomePage:19 - Clicking on rent option
-2022-03-26 10:09:12 INFO  HomePage:19 - rent is selected
+  <testcase name="selectSearchType" classname="runner.RentMap" time="0.351">
+    <system-out><![CDATA[2022-03-26 13:28:36 INFO  HomePage:19 - Clicking on rent option
+2022-03-26 13:28:36 INFO  HomePage:19 - rent is selected
 ]]></system-out>
   </testcase>
-  <testcase name="selectCity" classname="runner.RentMap" time="0.493">
-    <system-out><![CDATA[2022-03-26 10:09:12 INFO  HomePage:19 - Clicking on city dropdown and selecting Bangalore
-2022-03-26 10:09:12 INFO  HomePage:19 - Bangalore selected
+  <testcase name="selectCity" classname="runner.RentMap" time="0.46">
+    <system-out><![CDATA[2022-03-26 13:28:36 INFO  HomePage:19 - Clicking on city dropdown and selecting Bangalore
+2022-03-26 13:28:36 INFO  HomePage:19 - Bangalore selected
 ]]></system-out>
   </testcase>
-  <testcase name="selectRentPropertyType" classname="runner.RentMap" time="0.079">
-    <system-out><![CDATA[2022-03-26 10:09:12 INFO  HomePage:19 - Clicking on full house option
-2022-03-26 10:09:12 INFO  HomePage:19 - full house is selected
+  <testcase name="selectRentPropertyType" classname="runner.RentMap" time="0.085">
+    <system-out><![CDATA[2022-03-26 13:28:36 INFO  HomePage:19 - Clicking on full house option
+2022-03-26 13:28:37 INFO  HomePage:19 - full house is selected
 ]]></system-out>
   </testcase>
-  <testcase name="optionFromDropDown" classname="runner.RentMap" time="0.459">
-    <system-out><![CDATA[2022-03-26 10:09:12 INFO  HomePage:19 - Clicking on dropdown and selecting 1 RK
-2022-03-26 10:09:12 INFO  HomePage:19 - 1 RK is selected
-2022-03-26 10:09:12 INFO  HomePage:19 - Clicking on dropdown and selecting Immediate
-2022-03-26 10:09:13 INFO  HomePage:19 - Immediate is selected
+  <testcase name="optionFromDropDown" classname="runner.RentMap" time="0.56">
+    <system-out><![CDATA[2022-03-26 13:28:37 INFO  HomePage:19 - Clicking on dropdown and selecting 1 RK
+2022-03-26 13:28:37 INFO  HomePage:19 - 1 RK is selected
+2022-03-26 13:28:37 INFO  HomePage:19 - Clicking on dropdown and selecting Immediate
+2022-03-26 13:28:37 INFO  HomePage:19 - Immediate is selected
 ]]></system-out>
   </testcase>
-  <testcase name="selectLocalityAndSearch" classname="runner.RentMap" time="2.219">
-    <system-out><![CDATA[2022-03-26 10:09:13 INFO  HomePage:19 - Typing Basavanagudi, Bengaluru, Karnataka, India in search bar and clicking on search button
-2022-03-26 10:09:15 INFO  HomePage:19 - Property list page is  opened
+  <testcase name="selectLocalityAndSearch" classname="runner.RentMap" time="1.926">
+    <system-out><![CDATA[2022-03-26 13:28:37 INFO  HomePage:19 - Typing Basavanagudi, Bengaluru, Karnataka, India in search bar and clicking on search button
+2022-03-26 13:28:39 INFO  HomePage:19 - Property list page is  opened
 ]]></system-out>
   </testcase>
-  <testcase name="swithMapAndZoom" classname="runner.RentMap" time="3.646">
-    <system-out><![CDATA[2022-03-26 10:09:15 INFO  HomePage:19 - Clicking on map display
-2022-03-26 10:09:16 INFO  HomePage:19 - map is selected
-2022-03-26 10:09:16 INFO  HomePage:19 - Clicking on fullscreen button on the map
-2022-03-26 10:09:18 INFO  HomePage:19 - Map has opened in fullscreen
+  <testcase name="swithMapAndZoom" classname="runner.RentMap" time="4.386">
+    <system-out><![CDATA[2022-03-26 13:28:39 INFO  HomePage:19 - Clicking on map display
+2022-03-26 13:28:40 INFO  HomePage:19 - map is selected
+2022-03-26 13:28:40 INFO  HomePage:19 - Clicking on fullscreen button on the map
+2022-03-26 13:28:43 INFO  HomePage:19 - Map has opened in fullscreen
 ]]></system-out>
   </testcase>
   <testcase name="setUp" classname="runner.RentArticle" time="0">
-    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 40594
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 45627
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1648269560.544][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
-Mar 26, 2022 10:09:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1648281525.913][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 26, 2022 1:28:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="openNoDroker" classname="runner.RentArticle" time="1.871">
-    <system-out><![CDATA[2022-03-26 10:09:20 INFO  RentArticle:19 - Open NoBroker
-2022-03-26 10:09:22 INFO  RentArticle:19 - NoBroker as opened
+  <testcase name="openNoDroker" classname="runner.RentArticle" time="2.112">
+    <system-out><![CDATA[2022-03-26 13:28:46 INFO  RentArticle:19 - Open NoBroker
+2022-03-26 13:28:48 INFO  RentArticle:19 - NoBroker as opened
 Search Type
 rent
 City
@@ -264,56 +262,56 @@ Locality
 Basavanagudi, Bengaluru, Karnataka, India
 ]]></system-out>
   </testcase>
-  <testcase name="selectSearchType" classname="runner.RentArticle" time="0.263">
-    <system-out><![CDATA[2022-03-26 10:09:22 INFO  HomePage:19 - Clicking on rent option
-2022-03-26 10:09:22 INFO  HomePage:19 - rent is selected
+  <testcase name="selectSearchType" classname="runner.RentArticle" time="0.352">
+    <system-out><![CDATA[2022-03-26 13:28:48 INFO  HomePage:19 - Clicking on rent option
+2022-03-26 13:28:48 INFO  HomePage:19 - rent is selected
 ]]></system-out>
   </testcase>
-  <testcase name="selectCity" classname="runner.RentArticle" time="0.483">
-    <system-out><![CDATA[2022-03-26 10:09:22 INFO  HomePage:19 - Clicking on city dropdown and selecting Bangalore
-2022-03-26 10:09:23 INFO  HomePage:19 - Bangalore selected
+  <testcase name="selectCity" classname="runner.RentArticle" time="0.513">
+    <system-out><![CDATA[2022-03-26 13:28:48 INFO  HomePage:19 - Clicking on city dropdown and selecting Bangalore
+2022-03-26 13:28:49 INFO  HomePage:19 - Bangalore selected
 ]]></system-out>
   </testcase>
-  <testcase name="selectRentPropertyType" classname="runner.RentArticle" time="0.063">
-    <system-out><![CDATA[2022-03-26 10:09:23 INFO  HomePage:19 - Clicking on full house option
-2022-03-26 10:09:23 INFO  HomePage:19 - full house is selected
+  <testcase name="selectRentPropertyType" classname="runner.RentArticle" time="0.091">
+    <system-out><![CDATA[2022-03-26 13:28:49 INFO  HomePage:19 - Clicking on full house option
+2022-03-26 13:28:49 INFO  HomePage:19 - full house is selected
 ]]></system-out>
   </testcase>
-  <testcase name="optionFromDropDown" classname="runner.RentArticle" time="0.345">
-    <system-out><![CDATA[2022-03-26 10:09:23 INFO  HomePage:19 - Clicking on dropdown and selecting 1 RK
-2022-03-26 10:09:23 INFO  HomePage:19 - 1 RK is selected
-2022-03-26 10:09:23 INFO  HomePage:19 - Clicking on dropdown and selecting Immediate
-2022-03-26 10:09:23 INFO  HomePage:19 - Immediate is selected
+  <testcase name="optionFromDropDown" classname="runner.RentArticle" time="0.554">
+    <system-out><![CDATA[2022-03-26 13:28:49 INFO  HomePage:19 - Clicking on dropdown and selecting 1 RK
+2022-03-26 13:28:49 INFO  HomePage:19 - 1 RK is selected
+2022-03-26 13:28:49 INFO  HomePage:19 - Clicking on dropdown and selecting Immediate
+2022-03-26 13:28:49 INFO  HomePage:19 - Immediate is selected
 ]]></system-out>
   </testcase>
-  <testcase name="selectLocalityAndSearch" classname="runner.RentArticle" time="1.507">
-    <system-out><![CDATA[2022-03-26 10:09:23 INFO  HomePage:19 - Typing Basavanagudi, Bengaluru, Karnataka, India in search bar and clicking on search button
-2022-03-26 10:09:25 INFO  HomePage:19 - Property list page is  opened
+  <testcase name="selectLocalityAndSearch" classname="runner.RentArticle" time="2.034">
+    <system-out><![CDATA[2022-03-26 13:28:49 INFO  HomePage:19 - Typing Basavanagudi, Bengaluru, Karnataka, India in search bar and clicking on search button
+2022-03-26 13:28:51 INFO  HomePage:19 - Property list page is  opened
 ]]></system-out>
   </testcase>
-  <testcase name="clickArticle" classname="runner.RentArticle" time="1.322">
-    <system-out><![CDATA[2022-03-26 10:09:25 INFO  HomePage:19 - Clicking on a property artical
-2022-03-26 10:09:26 INFO  HomePage:19 - Property article opened in another page
+  <testcase name="clickArticle" classname="runner.RentArticle" time="1.453">
+    <system-out><![CDATA[2022-03-26 13:28:51 INFO  HomePage:19 - Clicking on a property artical
+2022-03-26 13:28:53 INFO  HomePage:19 - Property article opened in another page
 ]]></system-out>
   </testcase>
-  <testcase name="seePhotos" classname="runner.RentArticle" time="0.705">
-    <system-out><![CDATA[2022-03-26 10:09:26 INFO  HomePage:19 - Clicking on photos
-2022-03-26 10:09:27 INFO  HomePage:19 - Photo Lighbox of the property has opened
+  <testcase name="seePhotos" classname="runner.RentArticle" time="0.918">
+    <system-out><![CDATA[2022-03-26 13:28:53 INFO  HomePage:19 - Clicking on photos
+2022-03-26 13:28:54 INFO  HomePage:19 - Photo Lighbox of the property has opened
 ]]></system-out>
   </testcase>
   <testcase name="setUp" classname="runner.CommercialPropertyArticle" time="0">
-    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 30370
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 23517
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1648269568.851][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
-Mar 26, 2022 10:09:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1648281536.051][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 26, 2022 1:28:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="openNoDroker" classname="runner.CommercialPropertyArticle" time="1.919">
-    <system-out><![CDATA[2022-03-26 10:09:29 INFO  CommercialPropertyArticle:19 - Open NoBroker
-2022-03-26 10:09:30 INFO  CommercialPropertyArticle:19 - NoBroker as opened
+  <testcase name="openNoDroker" classname="runner.CommercialPropertyArticle" time="2.422">
+    <system-out><![CDATA[2022-03-26 13:28:56 INFO  CommercialPropertyArticle:19 - Open NoBroker
+2022-03-26 13:28:58 INFO  CommercialPropertyArticle:19 - NoBroker as opened
 Search Type
 commercial
 City
@@ -326,54 +324,56 @@ Locality
 Kothrud, Pune, Maharashtra, India
 ]]></system-out>
   </testcase>
-  <testcase name="selectSearchType" classname="runner.CommercialPropertyArticle" time="0.281">
-    <system-out><![CDATA[2022-03-26 10:09:30 INFO  HomePage:19 - Clicking on commercial option
-2022-03-26 10:09:31 INFO  HomePage:19 - commercial is selected
+  <testcase name="selectSearchType" classname="runner.CommercialPropertyArticle" time="0.34">
+    <system-out><![CDATA[2022-03-26 13:28:58 INFO  HomePage:19 - Clicking on commercial option
+2022-03-26 13:28:58 INFO  HomePage:19 - commercial is selected
 ]]></system-out>
   </testcase>
-  <testcase name="selectCity" classname="runner.CommercialPropertyArticle" time="0.343">
-    <system-out><![CDATA[2022-03-26 10:09:31 INFO  HomePage:19 - Clicking on city dropdown and selecting Pune
-2022-03-26 10:09:31 INFO  HomePage:19 - Pune selected
+  <testcase name="selectCity" classname="runner.CommercialPropertyArticle" time="0.677">
+    <system-out><![CDATA[2022-03-26 13:28:58 INFO  HomePage:19 - Clicking on city dropdown and selecting Pune
+2022-03-26 13:28:59 INFO  HomePage:19 - Pune selected
 ]]></system-out>
   </testcase>
-  <testcase name="selectCommercialPropertyType" classname="runner.CommercialPropertyArticle" time="0.072">
-    <system-out><![CDATA[2022-03-26 10:09:31 INFO  HomePage:19 - Clicking on rent option
-2022-03-26 10:09:31 INFO  HomePage:19 - rent is selected
+  <testcase name="selectCommercialPropertyType" classname="runner.CommercialPropertyArticle" time="0.117">
+    <system-out><![CDATA[2022-03-26 13:28:59 INFO  HomePage:19 - Clicking on rent option
+2022-03-26 13:28:59 INFO  HomePage:19 - rent is selected
 ]]></system-out>
   </testcase>
-  <testcase name="optionFromDropDown" classname="runner.CommercialPropertyArticle" time="0.195">
-    <system-out><![CDATA[2022-03-26 10:09:31 INFO  HomePage:19 - Clicking on dropdown and selecting Office Space
-2022-03-26 10:09:31 INFO  HomePage:19 - Office Space is selected
+  <testcase name="optionFromDropDown" classname="runner.CommercialPropertyArticle" time="0.249">
+    <system-out><![CDATA[2022-03-26 13:28:59 INFO  HomePage:19 - Clicking on dropdown and selecting Office Space
+2022-03-26 13:29:00 INFO  HomePage:19 - Office Space is selected
+]]></system-out>
+    <system-err><![CDATA[log4j:ERROR Failed to rename [./Logs/nobroker.log] to [./Logs/nobroker.log.2022-03-26 13:28:12].
+]]></system-err>
+  </testcase>
+  <testcase name="selectLocalityAndSearch" classname="runner.CommercialPropertyArticle" time="1.836">
+    <system-out><![CDATA[2022-03-26 13:29:00 INFO  HomePage:19 - Typing Kothrud, Pune, Maharashtra, India in search bar and clicking on search button
+2022-03-26 13:29:01 INFO  HomePage:19 - Property list page is  opened
 ]]></system-out>
   </testcase>
-  <testcase name="selectLocalityAndSearch" classname="runner.CommercialPropertyArticle" time="1.826">
-    <system-out><![CDATA[2022-03-26 10:09:31 INFO  HomePage:19 - Typing Kothrud, Pune, Maharashtra, India in search bar and clicking on search button
-2022-03-26 10:09:33 INFO  HomePage:19 - Property list page is  opened
+  <testcase name="clickArticle" classname="runner.CommercialPropertyArticle" time="1.585">
+    <system-out><![CDATA[2022-03-26 13:29:01 INFO  HomePage:19 - Clicking on a property artical
+2022-03-26 13:29:03 INFO  HomePage:19 - Property article opened in another page
 ]]></system-out>
   </testcase>
-  <testcase name="clickArticle" classname="runner.CommercialPropertyArticle" time="1.289">
-    <system-out><![CDATA[2022-03-26 10:09:33 INFO  HomePage:19 - Clicking on a property artical
-2022-03-26 10:09:34 INFO  HomePage:19 - Property article opened in another page
-]]></system-out>
-  </testcase>
-  <testcase name="seePhotos" classname="runner.CommercialPropertyArticle" time="0.902">
-    <system-out><![CDATA[2022-03-26 10:09:34 INFO  HomePage:19 - Clicking on photos
-2022-03-26 10:09:35 INFO  HomePage:19 - Photo Lighbox of the property has opened
+  <testcase name="seePhotos" classname="runner.CommercialPropertyArticle" time="1.346">
+    <system-out><![CDATA[2022-03-26 13:29:03 INFO  HomePage:19 - Clicking on photos
+2022-03-26 13:29:04 INFO  HomePage:19 - Photo Lighbox of the property has opened
 ]]></system-out>
   </testcase>
   <testcase name="setUp" classname="runner.CommercialPropertyMap" time="0">
-    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 30477
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 43872
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1648269577.211][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
-Mar 26, 2022 10:09:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1648281546.541][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 26, 2022 1:29:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="openNoDroker" classname="runner.CommercialPropertyMap" time="1.898">
-    <system-out><![CDATA[2022-03-26 10:09:37 INFO  CommercialPropertyMap:19 - Open NoBroker
-2022-03-26 10:09:39 INFO  CommercialPropertyMap:19 - NoBroker as opened
+  <testcase name="openNoDroker" classname="runner.CommercialPropertyMap" time="2.631">
+    <system-out><![CDATA[2022-03-26 13:29:06 INFO  CommercialPropertyMap:19 - Open NoBroker
+2022-03-26 13:29:09 INFO  CommercialPropertyMap:19 - NoBroker as opened
 Search Type
 commercial
 City
@@ -386,51 +386,51 @@ Locality
 Kothrud, Pune, Maharashtra, India
 ]]></system-out>
   </testcase>
-  <testcase name="selectSearchType" classname="runner.CommercialPropertyMap" time="0.263">
-    <system-out><![CDATA[2022-03-26 10:09:39 INFO  HomePage:19 - Clicking on commercial option
-2022-03-26 10:09:39 INFO  HomePage:19 - commercial is selected
+  <testcase name="selectSearchType" classname="runner.CommercialPropertyMap" time="0.34">
+    <system-out><![CDATA[2022-03-26 13:29:09 INFO  HomePage:19 - Clicking on commercial option
+2022-03-26 13:29:09 INFO  HomePage:19 - commercial is selected
 ]]></system-out>
   </testcase>
-  <testcase name="selectCity" classname="runner.CommercialPropertyMap" time="0.384">
-    <system-out><![CDATA[2022-03-26 10:09:39 INFO  HomePage:19 - Clicking on city dropdown and selecting Pune
-2022-03-26 10:09:39 INFO  HomePage:19 - Pune selected
+  <testcase name="selectCity" classname="runner.CommercialPropertyMap" time="0.437">
+    <system-out><![CDATA[2022-03-26 13:29:09 INFO  HomePage:19 - Clicking on city dropdown and selecting Pune
+2022-03-26 13:29:10 INFO  HomePage:19 - Pune selected
 ]]></system-out>
   </testcase>
-  <testcase name="selectCommercialPropertyType" classname="runner.CommercialPropertyMap" time="0.081">
-    <system-out><![CDATA[2022-03-26 10:09:39 INFO  HomePage:19 - Clicking on rent option
-2022-03-26 10:09:40 INFO  HomePage:19 - rent is selected
+  <testcase name="selectCommercialPropertyType" classname="runner.CommercialPropertyMap" time="0.107">
+    <system-out><![CDATA[2022-03-26 13:29:10 INFO  HomePage:19 - Clicking on rent option
+2022-03-26 13:29:10 INFO  HomePage:19 - rent is selected
 ]]></system-out>
   </testcase>
-  <testcase name="optionFromDropDown" classname="runner.CommercialPropertyMap" time="0.198">
-    <system-out><![CDATA[2022-03-26 10:09:40 INFO  HomePage:19 - Clicking on dropdown and selecting Office Space
-2022-03-26 10:09:40 INFO  HomePage:19 - Office Space is selected
+  <testcase name="optionFromDropDown" classname="runner.CommercialPropertyMap" time="0.378">
+    <system-out><![CDATA[2022-03-26 13:29:10 INFO  HomePage:19 - Clicking on dropdown and selecting Office Space
+2022-03-26 13:29:10 INFO  HomePage:19 - Office Space is selected
 ]]></system-out>
   </testcase>
-  <testcase name="selectLocalityAndSearch" classname="runner.CommercialPropertyMap" time="1.666">
-    <system-out><![CDATA[2022-03-26 10:09:40 INFO  HomePage:19 - Typing Kothrud, Pune, Maharashtra, India in search bar and clicking on search button
-2022-03-26 10:09:41 INFO  HomePage:19 - Property list page is  opened
+  <testcase name="selectLocalityAndSearch" classname="runner.CommercialPropertyMap" time="1.815">
+    <system-out><![CDATA[2022-03-26 13:29:10 INFO  HomePage:19 - Typing Kothrud, Pune, Maharashtra, India in search bar and clicking on search button
+2022-03-26 13:29:12 INFO  HomePage:19 - Property list page is  opened
 ]]></system-out>
   </testcase>
-  <testcase name="swithMapAndZoom" classname="runner.CommercialPropertyMap" time="3.1">
-    <system-out><![CDATA[2022-03-26 10:09:41 INFO  HomePage:19 - Clicking on map display
-2022-03-26 10:09:43 INFO  HomePage:19 - map is selected
-2022-03-26 10:09:43 INFO  HomePage:19 - Clicking on fullscreen button on the map
-2022-03-26 10:09:45 INFO  HomePage:19 - Map has opened in fullscreen
+  <testcase name="swithMapAndZoom" classname="runner.CommercialPropertyMap" time="3.676">
+    <system-out><![CDATA[2022-03-26 13:29:12 INFO  HomePage:19 - Clicking on map display
+2022-03-26 13:29:13 INFO  HomePage:19 - map is selected
+2022-03-26 13:29:13 INFO  HomePage:19 - Clicking on fullscreen button on the map
+2022-03-26 13:29:16 INFO  HomePage:19 - Map has opened in fullscreen
 ]]></system-out>
   </testcase>
   <testcase name="setUp" classname="runner.EmiCalculator" time="0">
-    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 48957
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 8007
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1648269586.517][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
-Mar 26, 2022 10:09:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1648281557.847][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 26, 2022 1:29:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="openNoDroker" classname="runner.EmiCalculator" time="2.191">
-    <system-out><![CDATA[2022-03-26 10:09:46 INFO  EmiCalculator:19 - Open NoBroker
-2022-03-26 10:09:48 INFO  EmiCalculator:19 - NoBroker as opened
+  <testcase name="openNoDroker" classname="runner.EmiCalculator" time="2.253">
+    <system-out><![CDATA[2022-03-26 13:29:18 INFO  EmiCalculator:19 - Open NoBroker
+2022-03-26 13:29:20 INFO  EmiCalculator:19 - NoBroker as opened
 Loan Amount
 2054500
 Rate Of Interest
@@ -439,115 +439,113 @@ Loan Tenure
 30
 ]]></system-out>
   </testcase>
-  <testcase name="emiFooterLink" classname="runner.EmiCalculator" time="1.828">
-    <system-out><![CDATA[2022-03-26 10:09:48 INFO  Footer:19 - Clicking on emi calculator
-2022-03-26 10:09:50 INFO  Footer:19 - Emi calculator page has opened
+  <testcase name="emiFooterLink" classname="runner.EmiCalculator" time="2.039">
+    <system-out><![CDATA[2022-03-26 13:29:20 INFO  Footer:19 - Clicking on emi calculator
+2022-03-26 13:29:22 INFO  Footer:19 - Emi calculator page has opened
 ]]></system-out>
   </testcase>
-  <testcase name="loanAmount" classname="runner.EmiCalculator" time="0.123">
+  <testcase name="loanAmount" classname="runner.EmiCalculator" time="0.184">
     <system-out><![CDATA[2054500  sdjhskjfhskfjh
-2022-03-26 10:09:50 INFO  HomePage:19 - Entering 2054500 loan amount
+2022-03-26 13:29:22 INFO  HomePage:19 - Entering 2054500 loan amount
 ]]></system-out>
   </testcase>
-  <testcase name="rateOfInterest" classname="runner.EmiCalculator" time="0.088">
-    <system-out><![CDATA[2022-03-26 10:09:50 INFO  HomePage:19 - Entering 10 rate of interest
+  <testcase name="rateOfInterest" classname="runner.EmiCalculator" time="0.117">
+    <system-out><![CDATA[2022-03-26 13:29:22 INFO  HomePage:19 - Entering 10 rate of interest
 ]]></system-out>
   </testcase>
-  <testcase name="loanTenure" classname="runner.EmiCalculator" time="0.085">
-    <system-out><![CDATA[2022-03-26 10:09:50 INFO  HomePage:19 - Entering 30 loan tenure
+  <testcase name="loanTenure" classname="runner.EmiCalculator" time="0.113">
+    <system-out><![CDATA[2022-03-26 13:29:22 INFO  HomePage:19 - Entering 30 loan tenure
 ]]></system-out>
   </testcase>
-  <testcase name="output" classname="runner.EmiCalculator" time="0.14">
-    <system-out><![CDATA[2022-03-26 10:09:51 INFO  HomePage:19 - Emi is calculated
+  <testcase name="output" classname="runner.EmiCalculator" time="0.269">
+    <system-out><![CDATA[2022-03-26 13:29:23 INFO  HomePage:19 - Emi is calculated
 ]]></system-out>
   </testcase>
   <testcase name="setUp" classname="runner.AboutUs" time="0">
-    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 44040
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 12858
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1648269592.204][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
-Mar 26, 2022 10:09:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1648281564.217][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 26, 2022 1:29:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="openNoDroker" classname="runner.AboutUs" time="2.128">
-    <system-out><![CDATA[2022-03-26 10:09:52 INFO  AboutUs:19 - Open NoBroker
-2022-03-26 10:09:54 INFO  AboutUs:19 - NoBroker as opened
+  <testcase name="openNoDroker" classname="runner.AboutUs" time="2.163">
+    <system-out><![CDATA[2022-03-26 13:29:24 INFO  AboutUs:19 - Open NoBroker
+2022-03-26 13:29:26 INFO  AboutUs:19 - NoBroker as opened
 ]]></system-out>
   </testcase>
-  <testcase name="clickAboutUs" classname="runner.AboutUs" time="1.148">
-    <system-out><![CDATA[2022-03-26 10:09:54 INFO  Footer:19 - Clicking on About Us
-2022-03-26 10:09:55 INFO  Footer:19 - About Us page has opened
+  <testcase name="clickAboutUs" classname="runner.AboutUs" time="1.15">
+    <system-out><![CDATA[2022-03-26 13:29:26 INFO  Footer:19 - Clicking on About Us
+2022-03-26 13:29:27 INFO  Footer:19 - About Us page has opened
 ]]></system-out>
   </testcase>
-  <testcase name="OpenTwitter" classname="runner.AboutUs" time="2.218">
-    <system-out><![CDATA[2022-03-26 10:09:55 INFO  HomePage:19 - Clicking on Contact Us
-2022-03-26 10:09:55 INFO  HomePage:19 - Contact Us section is open
-2022-03-26 10:09:55 INFO  HomePage:19 - Clicking on twitter icon in contact us
-2022-03-26 10:09:57 INFO  HomePage:19 - Twitter has opened
+  <testcase name="OpenTwitter" classname="runner.AboutUs" time="2.546">
+    <system-out><![CDATA[2022-03-26 13:29:27 INFO  HomePage:19 - Clicking on Contact Us
+2022-03-26 13:29:27 INFO  HomePage:19 - Contact Us section is open
+2022-03-26 13:29:27 INFO  HomePage:19 - Clicking on twitter icon in contact us
+2022-03-26 13:29:30 INFO  HomePage:19 - Twitter has opened
 ]]></system-out>
   </testcase>
   <testcase name="setUp" classname="runner.Wallet" time="0">
-    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 13296
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 1092
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1648269599.061][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
-Mar 26, 2022 10:09:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1648281571.607][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 26, 2022 1:29:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="openNoDroker" classname="runner.Wallet" time="1.347">
-    <system-out><![CDATA[2022-03-26 10:09:59 INFO  AboutUs:19 - Open NoBroker
-2022-03-26 10:10:00 INFO  AboutUs:19 - NoBroker as opened
-]]></system-out>
-    <system-err><![CDATA[log4j:ERROR Failed to rename [./Logs/nobroker.log] to [./Logs/nobroker.log.2022-03-26 10:09:01].
-]]></system-err>
-  </testcase>
-  <testcase name="openMenu" classname="runner.Wallet" time="0.179">
-    <system-out><![CDATA[2022-03-26 10:10:00 INFO  HomePage:19 - Clicking on Hamburger menu
-2022-03-26 10:10:00 INFO  HomePage:19 - Menu is open
+  <testcase name="openNoDroker" classname="runner.Wallet" time="1.597">
+    <system-out><![CDATA[2022-03-26 13:29:32 INFO  AboutUs:19 - Open NoBroker
+2022-03-26 13:29:33 INFO  AboutUs:19 - NoBroker as opened
 ]]></system-out>
   </testcase>
-  <testcase name="openWallet" classname="runner.Wallet" time="0.659">
-    <system-out><![CDATA[2022-03-26 10:10:00 INFO  HomePage:19 - Clicking on NBcash and wallet summary
-2022-03-26 10:10:01 INFO  HomePage:19 - Wallet Summary page has opened
+  <testcase name="openMenu" classname="runner.Wallet" time="0.213">
+    <system-out><![CDATA[2022-03-26 13:29:33 INFO  HomePage:19 - Clicking on Hamburger menu
+2022-03-26 13:29:33 INFO  HomePage:19 - Menu is open
 ]]></system-out>
   </testcase>
-  <testcase name="joinClub" classname="runner.Wallet" time="0.263">
-    <system-out><![CDATA[2022-03-26 10:10:01 INFO  HomePage:19 - Cliking on Join club
-2022-03-26 10:10:01 INFO  HomePage:19 - Wallet club page has opened
+  <testcase name="openWallet" classname="runner.Wallet" time="0.831">
+    <system-out><![CDATA[2022-03-26 13:29:33 INFO  HomePage:19 - Clicking on NBcash and wallet summary
+2022-03-26 13:29:34 INFO  HomePage:19 - Wallet Summary page has opened
+]]></system-out>
+  </testcase>
+  <testcase name="joinClub" classname="runner.Wallet" time="0.594">
+    <system-out><![CDATA[2022-03-26 13:29:34 INFO  HomePage:19 - Cliking on Join club
+2022-03-26 13:29:35 INFO  HomePage:19 - Wallet club page has opened
 ]]></system-out>
   </testcase>
   <testcase name="setUp" classname="runner.Interior" time="0">
-    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 8561
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 20467
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1648269602.639][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
-Mar 26, 2022 10:10:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1648281576.164][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+Mar 26, 2022 1:29:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="openNoDroker" classname="runner.Interior" time="1.384">
-    <system-out><![CDATA[2022-03-26 10:10:03 INFO  AboutUs:19 - Open NoBroker
-2022-03-26 10:10:04 INFO  AboutUs:19 - NoBroker as opened
+  <testcase name="openNoDroker" classname="runner.Interior" time="1.597">
+    <system-out><![CDATA[2022-03-26 13:29:36 INFO  AboutUs:19 - Open NoBroker
+2022-03-26 13:29:37 INFO  AboutUs:19 - NoBroker as opened
 ]]></system-out>
   </testcase>
-  <testcase name="openMenu" classname="runner.Interior" time="0.183">
-    <system-out><![CDATA[2022-03-26 10:10:04 INFO  HomePage:19 - Clicking on Hamburger menu
-2022-03-26 10:10:04 INFO  HomePage:19 - Menu is open
+  <testcase name="openMenu" classname="runner.Interior" time="0.201">
+    <system-out><![CDATA[2022-03-26 13:29:37 INFO  HomePage:19 - Clicking on Hamburger menu
+2022-03-26 13:29:38 INFO  HomePage:19 - Menu is open
 ]]></system-out>
   </testcase>
-  <testcase name="openInterior" classname="runner.Interior" time="6.499">
-    <system-out><![CDATA[2022-03-26 10:10:04 INFO  HomePage:19 - Clicking on Home Services and Interiors
-2022-03-26 10:10:10 INFO  HomePage:19 - Interiors page has opened
+  <testcase name="openInterior" classname="runner.Interior" time="5.399">
+    <system-out><![CDATA[2022-03-26 13:29:38 INFO  HomePage:19 - Clicking on Home Services and Interiors
+2022-03-26 13:29:43 INFO  HomePage:19 - Interiors page has opened
 ]]></system-out>
   </testcase>
-  <testcase name="seeRoomPhotos" classname="runner.Interior" time="1.384">
-    <system-out><![CDATA[2022-03-26 10:10:10 INFO  HomePage:19 - Clicking on Rooms to see photos
-2022-03-26 10:10:12 INFO  HomePage:19 - Room photos are displayed
+  <testcase name="seeRoomPhotos" classname="runner.Interior" time="1.406">
+    <system-out><![CDATA[2022-03-26 13:29:43 INFO  HomePage:19 - Clicking on Rooms to see photos
+2022-03-26 13:29:44 INFO  HomePage:19 - Room photos are displayed
 ]]></system-out>
   </testcase>
 </testsuite>

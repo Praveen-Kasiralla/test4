@@ -3,6 +3,7 @@ package pageobject;
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Wait;
 
 import reusable.WebDriverHelper;
 import uistore.WalletPageUi;
@@ -25,6 +26,7 @@ public class WalletPage {
 	public void clickClub() throws IOException {
 		exReport.enterInfoLog("Clicking on Join club");
 		logs.enterInfoLog("Cliking on Join club");
+		webDriver.waitUntilClikable(driver, WalletPageUi.joinClub);
 		webDriver.clickElement(driver, WalletPageUi.joinClub);
 		if(webDriver.getCurrentUrl(driver).contains("club")) {
 			exReport.enterPassLogWithSnap("Wallet Club page has opened");

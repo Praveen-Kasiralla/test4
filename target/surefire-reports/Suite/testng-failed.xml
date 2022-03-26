@@ -2,37 +2,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <parameter name="browser" value="chrome"/>
-  <test thread-count="5" name="Test4(failed)" verbose="0">
+  <test thread-count="5" name="Test9(failed)" verbose="0">
     <classes>
-      <class name="runner.RentArticle">
+      <class name="runner.Wallet">
         <methods>
           <include name="driverExit"/>
+          <include name="joinClub"/>
           <include name="driverSetUp"/>
-          <include name="seePhotos"/>
-          <include name="selectLocalityAndSearch"/>
-          <include name="required"/>
-          <include name="clickArticle"/>
-        </methods>
-      </class> <!-- runner.RentArticle -->
-    </classes>
-  </test> <!-- Test4(failed) -->
-  <test thread-count="5" name="Test5(failed)" verbose="0">
-    <classes>
-      <class name="runner.CommercialPropertyArticle">
-        <methods>
-          <include name="selectLocalityAndSearch"/>
-          <include name="driverExit"/>
-          <include name="selectSearchType"/>
-          <include name="driverSetUp"/>
-          <include name="clickArticle"/>
-          <include name="optionFromDropDown"/>
-          <include name="selectCity"/>
-          <include name="openNoDroker"/>
-          <include name="seePhotos"/>
-          <include name="selectCommercialPropertyType"/>
           <include name="required"/>
         </methods>
-      </class> <!-- runner.CommercialPropertyArticle -->
+      </class> <!-- runner.Wallet -->
     </classes>
-  </test> <!-- Test5(failed) -->
+  </test> <!-- Test9(failed) -->
 </suite> <!-- Failed suite [Suite] -->
